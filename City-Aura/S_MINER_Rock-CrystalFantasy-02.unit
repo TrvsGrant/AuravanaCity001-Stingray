@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 6.75808438940237
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			3.02937602996826
+			4.02533054351807
+			5.53705453872681
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0968309789896011
+			-0.300528794527054
+			0.903123557567596
+			0.290988087654114
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"Material #11" = "content/models/City-Aura/M_MINER_Rock-CrystalFantasy-02"
+}
+renderables = {
+	"S_MINER_Rock-CrystalFantasy-02" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

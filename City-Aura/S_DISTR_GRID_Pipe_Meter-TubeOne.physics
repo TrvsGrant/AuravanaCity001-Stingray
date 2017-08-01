@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_DISTR_GRID_Pipe_Meter-TubeOne"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_DISTR_GRID_Pipe_Meter-TubeOne"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

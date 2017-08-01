@@ -1,0 +1,188 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Pressed"
+		FromNode = "d076a2ac-9dc2-4dda-acd7-fd702dd2feb0"
+		Id = "7690d639-ed38-449c-9e6b-efccd347c857"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "dd866002-5be5-4643-8f26-556cde667284"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Unit"
+		FromNode = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		Id = "dac6f299-e310-4770-82cb-bc1d08c2adbc"
+		ToItem = "Unit"
+		ToNode = "3b9674f3-2272-4e69-86b1-7543b6db52c7"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Unit"
+		FromNode = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		Id = "9cfa3e49-0d59-42d9-b980-973c7be1850c"
+		ToItem = "Unit"
+		ToNode = "ba6d24cf-14dc-46a7-99be-2f181d8126ee"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Out"
+		FromNode = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		Id = "d9abffa9-bfe8-4b71-879c-583652ccd726"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "dd866002-5be5-4643-8f26-556cde667284"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Unit"
+		FromNode = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		Id = "7e1f7326-cb1e-44bd-a16c-ed581be43272"
+		ToItem = "Unit"
+		ToNode = "a7f9e77e-85da-41f1-a25e-aba5a3d3e412"
+		Type = "Unit"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Animation = {
+			Value = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01"
+		}
+		Blendtime = {
+			Value = 0.5
+		}
+		Category = "Animation"
+		Class = "Stingray.Flow.GenericAnimation"
+		Id = "dd866002-5be5-4643-8f26-556cde667284"
+		Loop = {
+			Value = true
+		}
+		NodeLocation = {
+			X = 540
+			Y = 260
+		}
+		Pause = {
+		}
+		Paused = {
+		}
+		Play = {
+		}
+		Played = {
+		}
+		Resume = {
+		}
+		Resumed = {
+		}
+		Speed = {
+			Value = 0.2
+		}
+		Stop = {
+		}
+		Stopped = {
+		}
+		Title = "Play Animation Clip"
+		Unit = {
+			UseMyUnit = true
+		}
+		Width = 160
+	}
+	{
+		Category = "Event"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "unit_spawned"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		Inputs = [
+		]
+		NodeLocation = {
+			X = -20
+			Y = 300
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.OutVariableUnit"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Unit Spawned"
+		Width = 160
+	}
+	{
+		Category = "Unit"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "get_unit_actor"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "a7f9e77e-85da-41f1-a25e-aba5a3d3e412"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = false
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "actor_index"
+				Type = "float"
+				UIName = "Actor Index"
+				Variable = {
+					Class = "Stingray.Flow.InVariableFloat"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "actor_name"
+				Type = "string"
+				UIName = "Actor Name"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 180
+			Y = 160
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "actor"
+				Type = "actor"
+				UIName = "Actor"
+				Variable = {
+					Class = "Stingray.Flow.OutVariableActor"
+				}
+			}
+		]
+		Title = "Get Unit Actor"
+		Width = 160
+	}
+]

@@ -1,0 +1,30 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 5.9797400769206
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [7.57976722717285 5.03462219238281 20.4291000366211]
+		projection_type = "perspective"
+		rotation = [-0.0303195957094431 -0.112973585724831 0.959192216396332 0.257425725460052]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Rails = "content/models/City-Aura/M_Copper-01"
+	Structure = "content/models/City-Aura/M_Concrete-Bare-02"
+}
+renderables = {
+	"S_TRANS_COMPR_MassRapidRail-O" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

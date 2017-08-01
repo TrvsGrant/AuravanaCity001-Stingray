@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "43a28d43-a35e-4345-900b-cb95b667e419"
+_name = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01"
+anim_controller_ref = {
+	_id = "fd4f5081-8dd5-41cd-9c7f-0b90152de3e9"
+	ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "f99ee127-96c4-47f7-8a88-930938ae0ac0"
+	ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "525e6a71-21ec-4c39-ac1f-d53f3e04a306"
+	ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01"

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgO-F1-PavillionArch12"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgO-F1-PavillionArch12"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

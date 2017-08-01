@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "ff45d18d-ec62-4cf8-ab20-4a2fe6933817"
+_name = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "03d90c0d-596a-4b5d-8aee-733d4d04f267"
+	ref_filename = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "8f556937-890c-4840-9e15-155a26486dff"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "92b821b1-898b-4d23-937c-2b1e79150c53"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "7ecdb1d7-8dd7-45d3-8d3e-6afee5816324"
+	ref_filename = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "46202ef5-e599-44f8-b58c-39860c2c3e93"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "ded76a8f-e70e-4b36-a31a-236e0e02fbeb"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "PipeMoverAnimation"
+trimming_end = 12.6666669845581
+trimming_start = 0

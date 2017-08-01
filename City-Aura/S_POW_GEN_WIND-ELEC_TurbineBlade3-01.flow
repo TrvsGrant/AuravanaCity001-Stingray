@@ -1,0 +1,77 @@
+
+nodes = [
+	{
+		id = "dd866002-5be5-4643-8f26-556cde667284"
+		in_variables = {
+			animation = {
+				type = "id"
+			}
+			blendtime = {
+				type = "float"
+			}
+			loop = {
+				type = "bool"
+			}
+			speed = {
+				type = "float"
+			}
+			unit = {
+				node = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "generic_animation"
+		variable_values = {
+			animation = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01"
+			blendtime = 0.5
+			loop = true
+			speed = 0.2
+			unit = null
+		}
+	}
+	{
+		id = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "dd866002-5be5-4643-8f26-556cde667284:0"
+					node = "dd866002-5be5-4643-8f26-556cde667284"
+				}
+			]
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		id = "a7f9e77e-85da-41f1-a25e-aba5a3d3e412"
+		in_variables = {
+			actor_index = {
+				type = "float"
+			}
+			actor_name = {
+				type = "string"
+			}
+			unit = {
+				node = "393b24fc-e356-4c11-bb69-a4e76eb12fb0"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "get_unit_actor"
+		variable_values = {
+			actor = null
+			actor_index = null
+			actor_name = null
+			unit = null
+		}
+	}
+]

@@ -1,0 +1,43 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 16.1452709693489
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			2.92962002754211
+			15.1108989715576
+			5.45530796051025
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0145853096619248
+			-0.151942387223244
+			0.983759701251984
+			0.0944334790110588
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	FloorPosts = "content/models/City-Aura/M_RECREAT_Court-Tennis-01-FloorPosts"
+	Net = "content/models/City-Aura/M_RECREAT_Court-Tennis-01_Net"
+}
+renderables = {
+	"S_RECREAT_Court-Tennis-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 27.6501825428442
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [26.4065380096436 -3.5631890296936 11.1215858459473]
+		projection_type = "perspective"
+		rotation = [0.084645964205265 0.0741051509976387 -0.654524028301239 -0.747624099254608]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-Transparent"
+	Structure = "content/models/City-Aura/M_Paint-Plaster-White-02"
+}
+renderables = {
+	"S_ARCH_BldgE-F2-DodecP02Q05" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

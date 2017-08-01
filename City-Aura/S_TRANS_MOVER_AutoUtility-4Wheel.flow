@@ -1,0 +1,1464 @@
+
+nodes = [
+	{
+		id = "b278be4a-e840-4da0-a731-d6fdd3a08e6d"
+		out_variables = {
+			value = {
+				type = "string"
+			}
+		}
+		type = "string_data"
+		variable_values = {
+			set = "S_TRANS_MOVER_AutoUtility-4Wheel"
+			value = null
+		}
+	}
+	{
+		id = "33979bb8-5a87-4131-8a56-d8bd60456957"
+		in_variables = {
+			actor_index = {
+				type = "float"
+			}
+			actor_name = {
+				node = "b278be4a-e840-4da0-a731-d6fdd3a08e6d"
+				type = "string"
+				variable = "value"
+			}
+			unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			actor = {
+				type = "actor"
+			}
+		}
+		type = "get_unit_actor"
+		variable_values = {
+			actor = null
+			actor_index = null
+			actor_name = null
+			unit = null
+		}
+	}
+	{
+		id = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "64eca016-e326-45a1-bcdc-77f5fbcefb21:0"
+					node = "64eca016-e326-45a1-bcdc-77f5fbcefb21"
+				}
+			]
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		flow_nodes_resource = "vr_steam/script/steam_vr"
+		id = "64eca016-e326-45a1-bcdc-77f5fbcefb21"
+		in_variables = {
+			Actor = {
+				node = "33979bb8-5a87-4131-8a56-d8bd60456957"
+				type = "actor"
+				variable = "actor"
+			}
+			Bool = {
+				type = "bool"
+			}
+		}
+		name = "SteamVR Set Actor Kinematic"
+		query = false
+		return_values = [
+		]
+		type = "custom_script_node"
+		variable_values = {
+			Actor = null
+			Bool = false
+		}
+		variables = [
+			{
+				name = "Bool"
+				type = "bool"
+			}
+			{
+				name = "Actor"
+				type = "actor"
+			}
+		]
+	}
+	{
+		id = "f799982a-ee0b-4339-a45b-7c807500cbd4"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "string"
+			}
+		}
+		type = "get_unit_string_data"
+		variable_values = {
+			key = "parent_global_var"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "04c86b5d-4105-4149-8afd-b5b85cc91a71"
+		in_variables = {
+			name = {
+				node = "f799982a-ee0b-4339-a45b-7c807500cbd4"
+				type = "string"
+				variable = "value"
+			}
+			scope = {
+				type = "string"
+			}
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "get_unit_variable"
+		variable_values = {
+			name = null
+			scope = "global"
+			unit = null
+		}
+	}
+	{
+		id = "31b6cd69-e162-415d-8753-3eff482c72cf"
+		in_variables = {
+			unit = {
+				node = "04c86b5d-4105-4149-8afd-b5b85cc91a71"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "unit_flow_event"
+		variable_values = {
+			event = "set_invisable"
+			unit = null
+		}
+	}
+	{
+		id = "8cae2c55-c6de-41b7-a451-a6666108a059"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "12462b94-3821-434a-beca-1c6afff73fa3:0"
+					node = "12462b94-3821-434a-beca-1c6afff73fa3"
+				}
+			]
+		}
+		type = "external_event"
+		variable_values = {
+			event_name = "Linked"
+		}
+	}
+	{
+		id = "12462b94-3821-434a-beca-1c6afff73fa3"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			position = {
+				node = "7cac93ef-8111-4e0b-8cfd-e457e9c1f55c"
+				type = "vector3"
+				variable = "value"
+			}
+			teleport = {
+				type = "bool"
+			}
+			unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "403490e2-0f69-43e1-b7df-63d280cc6cc5:0"
+					node = "403490e2-0f69-43e1-b7df-63d280cc6cc5"
+				}
+			]
+		}
+		type = "set_unit_local_position"
+		variable_values = {
+			object = null
+			position = null
+			teleport = true
+			unit = null
+		}
+	}
+	{
+		id = "a93d81f1-d7df-47bb-96eb-0c3c39a89e84"
+		in_variables = {
+			forward = {
+				node = "35ea20b8-0a1a-4759-8993-a4064c77fd84"
+				type = "vector3"
+				variable = "value"
+			}
+			up = {
+				type = "vector3"
+			}
+		}
+		out_variables = {
+			rotation = {
+				type = "quaternion"
+			}
+		}
+		type = "rotation_from_vectors"
+		variable_values = {
+			forward = null
+			rotation = null
+			up = null
+		}
+	}
+	{
+		id = "403490e2-0f69-43e1-b7df-63d280cc6cc5"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			rotation = {
+				node = "a93d81f1-d7df-47bb-96eb-0c3c39a89e84"
+				type = "quaternion"
+				variable = "rotation"
+			}
+			teleport = {
+				type = "bool"
+			}
+			unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "31b6cd69-e162-415d-8753-3eff482c72cf:0"
+					node = "31b6cd69-e162-415d-8753-3eff482c72cf"
+				}
+			]
+		}
+		type = "set_unit_local_rotation"
+		variable_values = {
+			object = null
+			rotation = null
+			teleport = true
+			unit = null
+		}
+	}
+	{
+		id = "88f52a88-74ef-4db4-97f0-3009bd5759e7"
+		out_variables = {
+			value = {
+				type = "string"
+			}
+		}
+		type = "string_data"
+		variable_values = {
+			set = "Your Material Name"
+			value = null
+		}
+	}
+	{
+		id = "8257b18d-5f8e-435e-b442-206bce74bac3"
+		out_variables = {
+			value = {
+				type = "string"
+			}
+		}
+		type = "string_data"
+		variable_values = {
+			set = "S_TRANS_MOVER_AutoUtility-4Wheel
+Connections = [
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+		Id = \"6437ae21-2799-4ebf-becd-f77267f42154\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		Id = \"76e28ad8-ab33-4320-ace4-ce1b63141857\"
+		ToItem = \"Mesh\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"String\"
+		FromNode = \"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+		Id = \"8668aa4e-4061-4f25-9bd3-2d435c7f613e\"
+		ToItem = \"ControllerIndex\"
+		ToNode = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		Id = \"b92121d8-e5fc-4223-9dc4-2c731395e357\"
+		ToItem = \"MaterialSlot\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Id = \"bc59546f-050d-4048-aecb-5f9a1a740558\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		Id = \"cc7051ac-1bf1-487a-bbc7-17c420bf8735\"
+		ToItem = \"Mesh\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		Id = \"e2ba55a0-8535-4247-a51d-bda8957dfb78\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		Id = \"ed4917df-9b7c-4e12-9827-61855263b6b5\"
+		ToItem = \"MaterialSlot\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Type = \"String\"
+	}
+]
+Groups = [
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"354836b1-b990-440c-9ab4-440ad01d0600\"
+		Nodes = [
+			\"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		]
+		Title = \"Mesh Material Name\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"0230b885-a96e-4008-9e0d-3d0027fd131d\"
+		Nodes = [
+			\"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		]
+		Title = \"Mesh Name\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+			\"354836b1-b990-440c-9ab4-440ad01d0600\"
+			\"0230b885-a96e-4008-9e0d-3d0027fd131d\"
+		]
+		Id = \"bc1cc279-7d49-466d-9dac-d5151480bbc0\"
+		Nodes = [
+		]
+		Title = \"!!! Set These !!!\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+			\"bc1cc279-7d49-466d-9dac-d5151480bbc0\"
+		]
+		Id = \"30009175-ba82-4155-b794-c61f333fcfbf\"
+		Nodes = [
+			\"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+			\"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+			\"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+			\"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		]
+		Title = \"Highlight the Unit\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"f8365096-0e35-488b-aee7-3beb5b2f3f9a\"
+		Nodes = [
+			\"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+			\"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		]
+		Title = \"Give Tactile (Vibration) Feeback When Touched\"
+	}
+]
+Nodes = [
+	{
+		Category = \"Data\"
+		Class = \"Stingray.Flow.StringData\"
+		Id = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		NodeLocation = {
+			X = -280
+			Y = 160
+		}
+		Set = {
+			Value = \"Your Material Name\"
+		}
+		Title = \"String Data\"
+		Value = {
+		}
+		Width = 260
+	}
+	{
+		Category = \"Data\"
+		Class = \"Stingray.Flow.StringData\"
+		Id = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		NodeLocation = {
+			X = -280
+			Y = 320
+		}
+		Set = {
+			Value = \"Your Actor Name\"
+		}
+		Title = \"String Data\"
+		Value = {
+		}
+		Width = 260
+	}
+	{
+		Category = \"External\"
+		Class = \"Stingray.Flow.ExternalEvent\"
+		EventName = {
+			Value = \"highlight_on\"
+		}
+		Id = \"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+		NodeLocation = {
+			X = 140
+			Y = 40
+		}
+		Out = {
+		}
+		Title = \"External In Event\"
+		Width = 200
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"Unit\"
+				Type = \"unit\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableUnit\"
+					UseMyUnit = true
+				}
+			}
+			{
+				RawName = \"Mesh\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"MaterialSlot\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"Color\"
+				Type = \"vector3\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableVector3\"
+					Value = \"255 198 0\"
+				}
+			}
+			{
+				RawName = \"Enable\"
+				Type = \"bool\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableBoolean\"
+					Value = false
+				}
+			}
+			{
+				RawName = \"Alpha\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 1
+				}
+			}
+			{
+				RawName = \"Mask\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Set Unit Highlight\"
+		NodeLocation = {
+			X = 560
+			Y = 400
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 280
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"Unit\"
+				Type = \"unit\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableUnit\"
+					UseMyUnit = true
+				}
+			}
+			{
+				RawName = \"Mesh\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"MaterialSlot\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"Color\"
+				Type = \"vector3\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableVector3\"
+					Value = \"255 198 0\"
+				}
+			}
+			{
+				RawName = \"Enable\"
+				Type = \"bool\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableBoolean\"
+					Value = true
+				}
+			}
+			{
+				RawName = \"Alpha\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 1
+				}
+			}
+			{
+				RawName = \"Mask\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Set Unit Highlight\"
+		NodeLocation = {
+			X = 560
+			Y = 180
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 280
+	}
+	{
+		Category = \"External\"
+		Class = \"Stingray.Flow.ExternalEvent\"
+		EventName = {
+			Value = \"highlight_off\"
+		}
+		Id = \"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		NodeLocation = {
+			X = 140
+			Y = 420
+		}
+		Out = {
+		}
+		Title = \"External In Event\"
+		Width = 200
+	}
+	{
+		Category = \"Variable\"
+		Class = \"Stingray.Flow.DataDrivenFlowNode\"
+		ColorCategory = \"ConnectorString\"
+		ExportTypeName = \"get_string_variable\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+		Inputs = [
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Input\"
+				Hidden = false
+				RawName = \"name\"
+				Type = \"string\"
+				UIName = \"Name\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+					Value = \"controller_touch_index\"
+				}
+			}
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Input\"
+				Hidden = false
+				RawName = \"scope\"
+				Type = \"enum\"
+				UIName = \"Scope\"
+				Variable = {
+					Class = \"Stingray.Flow.InEnumVariable\"
+					Value = \"global\"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 900
+			Y = 60
+		}
+		Outputs = [
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Output\"
+				RawName = \"string\"
+				Type = \"string\"
+				UIName = \"String\"
+				Variable = {
+					Class = \"Stingray.Flow.OutVariableString\"
+				}
+			}
+		]
+		Title = \"Get String Variable\"
+		Width = 220
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"controllerIndex\"
+				Type = \"enum\"
+				Variable = {
+					Class = \"Stingray.Flow.InEnumVariable\"
+				}
+			}
+			{
+				RawName = \"seconds\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 0.003
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Controller Feedback\"
+		NodeLocation = {
+			X = 1220
+			Y = 120
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 200
+	}
+
+Connections = [
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+		Id = \"6437ae21-2799-4ebf-becd-f77267f42154\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		Id = \"76e28ad8-ab33-4320-ace4-ce1b63141857\"
+		ToItem = \"Mesh\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"String\"
+		FromNode = \"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+		Id = \"8668aa4e-4061-4f25-9bd3-2d435c7f613e\"
+		ToItem = \"ControllerIndex\"
+		ToNode = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		Id = \"b92121d8-e5fc-4223-9dc4-2c731395e357\"
+		ToItem = \"MaterialSlot\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Id = \"bc59546f-050d-4048-aecb-5f9a1a740558\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		Id = \"cc7051ac-1bf1-487a-bbc7-17c420bf8735\"
+		ToItem = \"Mesh\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		Type = \"String\"
+	}
+	{
+		Class = \"Stingray.Flow.EventConnection\"
+		FromItem = \"Out\"
+		FromNode = \"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		Id = \"e2ba55a0-8535-4247-a51d-bda8957dfb78\"
+		Priority = 0
+		ToItem = \"In\"
+		ToNode = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+	}
+	{
+		Class = \"Stingray.Flow.VariableConnection\"
+		FromItem = \"Value\"
+		FromNode = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		Id = \"ed4917df-9b7c-4e12-9827-61855263b6b5\"
+		ToItem = \"MaterialSlot\"
+		ToNode = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		Type = \"String\"
+	}
+]
+Groups = [
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"354836b1-b990-440c-9ab4-440ad01d0600\"
+		Nodes = [
+			\"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		]
+		Title = \"Mesh Material Name\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"0230b885-a96e-4008-9e0d-3d0027fd131d\"
+		Nodes = [
+			\"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		]
+		Title = \"Mesh Name\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+			\"354836b1-b990-440c-9ab4-440ad01d0600\"
+			\"0230b885-a96e-4008-9e0d-3d0027fd131d\"
+		]
+		Id = \"bc1cc279-7d49-466d-9dac-d5151480bbc0\"
+		Nodes = [
+		]
+		Title = \"!!! Set These !!!\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+			\"bc1cc279-7d49-466d-9dac-d5151480bbc0\"
+		]
+		Id = \"30009175-ba82-4155-b794-c61f333fcfbf\"
+		Nodes = [
+			\"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+			\"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+			\"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+			\"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		]
+		Title = \"Highlight the Unit\"
+	}
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = \"f8365096-0e35-488b-aee7-3beb5b2f3f9a\"
+		Nodes = [
+			\"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+			\"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		]
+		Title = \"Give Tactile (Vibration) Feeback When Touched\"
+	}
+]
+Nodes = [
+	{
+		Category = \"Data\"
+		Class = \"Stingray.Flow.StringData\"
+		Id = \"25d0dea7-6f92-442f-ab56-d582abf0cd1e\"
+		NodeLocation = {
+			X = -280
+			Y = 160
+		}
+		Set = {
+			Value = \"Your Material Name\"
+		}
+		Title = \"String Data\"
+		Value = {
+		}
+		Width = 260
+	}
+	{
+		Category = \"Data\"
+		Class = \"Stingray.Flow.StringData\"
+		Id = \"eec9749c-5075-4f43-8f85-7c8a8d8a6c7f\"
+		NodeLocation = {
+			X = -280
+			Y = 320
+		}
+		Set = {
+			Value = \"Your Actor Name\"
+		}
+		Title = \"String Data\"
+		Value = {
+		}
+		Width = 260
+	}
+	{
+		Category = \"External\"
+		Class = \"Stingray.Flow.ExternalEvent\"
+		EventName = {
+			Value = \"highlight_on\"
+		}
+		Id = \"3a54b8d5-3381-4a13-8589-5a6a3fec39ed\"
+		NodeLocation = {
+			X = 140
+			Y = 40
+		}
+		Out = {
+		}
+		Title = \"External In Event\"
+		Width = 200
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"Unit\"
+				Type = \"unit\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableUnit\"
+					UseMyUnit = true
+				}
+			}
+			{
+				RawName = \"Mesh\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"MaterialSlot\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"Color\"
+				Type = \"vector3\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableVector3\"
+					Value = \"255 198 0\"
+				}
+			}
+			{
+				RawName = \"Enable\"
+				Type = \"bool\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableBoolean\"
+					Value = false
+				}
+			}
+			{
+				RawName = \"Alpha\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 1
+				}
+			}
+			{
+				RawName = \"Mask\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"a62c6f4c-09ee-495b-af2b-4ffd455aa4e6\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Set Unit Highlight\"
+		NodeLocation = {
+			X = 560
+			Y = 400
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 280
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"Unit\"
+				Type = \"unit\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableUnit\"
+					UseMyUnit = true
+				}
+			}
+			{
+				RawName = \"Mesh\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"MaterialSlot\"
+				Type = \"string\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+				}
+			}
+			{
+				RawName = \"Color\"
+				Type = \"vector3\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableVector3\"
+					Value = \"255 198 0\"
+				}
+			}
+			{
+				RawName = \"Enable\"
+				Type = \"bool\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableBoolean\"
+					Value = true
+				}
+			}
+			{
+				RawName = \"Alpha\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 1
+				}
+			}
+			{
+				RawName = \"Mask\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"dc83d4f5-b7ae-42e1-912d-001cfa156885\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Set Unit Highlight\"
+		NodeLocation = {
+			X = 560
+			Y = 180
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 280
+	}
+	{
+		Category = \"External\"
+		Class = \"Stingray.Flow.ExternalEvent\"
+		EventName = {
+			Value = \"highlight_off\"
+		}
+		Id = \"5aebefd9-a5dc-44a1-a89d-cfba4158eb6b\"
+		NodeLocation = {
+			X = 140
+			Y = 420
+		}
+		Out = {
+		}
+		Title = \"External In Event\"
+		Width = 200
+	}
+	{
+		Category = \"Variable\"
+		Class = \"Stingray.Flow.DataDrivenFlowNode\"
+		ColorCategory = \"ConnectorString\"
+		ExportTypeName = \"get_string_variable\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"eea589e5-20c1-4928-bd60-ecd9b85d3919\"
+		Inputs = [
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Input\"
+				Hidden = false
+				RawName = \"name\"
+				Type = \"string\"
+				UIName = \"Name\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableString\"
+					Value = \"controller_touch_index\"
+				}
+			}
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Input\"
+				Hidden = false
+				RawName = \"scope\"
+				Type = \"enum\"
+				UIName = \"Scope\"
+				Variable = {
+					Class = \"Stingray.Flow.InEnumVariable\"
+					Value = \"global\"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 900
+			Y = 60
+		}
+		Outputs = [
+			{
+				Class = \"Stingray.Flow.DataDrivenFlowNode+Output\"
+				RawName = \"string\"
+				Type = \"string\"
+				UIName = \"String\"
+				Variable = {
+					Class = \"Stingray.Flow.OutVariableString\"
+				}
+			}
+		]
+		Title = \"Get String Variable\"
+		Width = 220
+	}
+	{
+		Arguments = [
+			{
+				RawName = \"controllerIndex\"
+				Type = \"enum\"
+				Variable = {
+					Class = \"Stingray.Flow.InEnumVariable\"
+				}
+			}
+			{
+				RawName = \"seconds\"
+				Type = \"float\"
+				Variable = {
+					Class = \"Stingray.Flow.InVariableFloat\"
+					Value = 0.003
+				}
+			}
+		]
+		Class = \"Stingray.Flow.CustomScriptNode\"
+		FlowNodesResource = \"vr_steam/script/steam_vr\"
+		FlowNodesResourceKey = \"flow_nodes_resource\"
+		Id = \"b60f6d5e-48b7-462c-a7c2-c3853c438b34\"
+		InEvents = [
+			\"In\"
+		]
+		IsQuery = false
+		Name = \"SteamVR Controller Feedback\"
+		NodeLocation = {
+			X = 1220
+			Y = 120
+		}
+		OutEvents = [
+			\"Out\"
+		]
+		ReturnValues = [
+		]
+		Width = 200
+	}
+S_TRANS_MOVER_AutoUtility-4Wheel"
+			value = null
+		}
+	}
+	{
+		id = "be7ef6ca-b807-4cb1-9b09-37daa580c0a1"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "6926ee65-d85d-4bb4-b0d4-1ac6e11a46ed:0"
+					node = "6926ee65-d85d-4bb4-b0d4-1ac6e11a46ed"
+				}
+			]
+		}
+		type = "external_event"
+		variable_values = {
+			event_name = "highlight_on"
+		}
+	}
+	{
+		flow_nodes_resource = "vr_steam/script/steam_vr"
+		id = "6ac75055-38ff-4f71-83f6-afa1c27fc87f"
+		in_variables = {
+			Alpha = {
+				type = "float"
+			}
+			Color = {
+				type = "vector3"
+			}
+			Enable = {
+				type = "bool"
+			}
+			Mask = {
+				type = "float"
+			}
+			MaterialSlot = {
+				node = "88f52a88-74ef-4db4-97f0-3009bd5759e7"
+				type = "string"
+				variable = "value"
+			}
+			Mesh = {
+				node = "8257b18d-5f8e-435e-b442-206bce74bac3"
+				type = "string"
+				variable = "value"
+			}
+			Unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		name = "SteamVR Set Unit Highlight"
+		query = false
+		return_values = [
+		]
+		type = "custom_script_node"
+		variable_values = {
+			Alpha = 1
+			Color = [
+				255
+				198
+				0
+			]
+			Enable = false
+			Mask = null
+			MaterialSlot = null
+			Mesh = null
+			Unit = null
+		}
+		variables = [
+			{
+				name = "Unit"
+				type = "unit"
+			}
+			{
+				name = "Mesh"
+				type = "string"
+			}
+			{
+				name = "MaterialSlot"
+				type = "string"
+			}
+			{
+				name = "Color"
+				type = "vector3"
+			}
+			{
+				name = "Enable"
+				type = "bool"
+			}
+			{
+				name = "Alpha"
+				type = "float"
+			}
+			{
+				name = "Mask"
+				type = "float"
+			}
+		]
+	}
+	{
+		flow_nodes_resource = "vr_steam/script/steam_vr"
+		id = "6926ee65-d85d-4bb4-b0d4-1ac6e11a46ed"
+		in_variables = {
+			Alpha = {
+				type = "float"
+			}
+			Color = {
+				type = "vector3"
+			}
+			Enable = {
+				type = "bool"
+			}
+			Mask = {
+				type = "float"
+			}
+			MaterialSlot = {
+				node = "88f52a88-74ef-4db4-97f0-3009bd5759e7"
+				type = "string"
+				variable = "value"
+			}
+			Mesh = {
+				node = "8257b18d-5f8e-435e-b442-206bce74bac3"
+				type = "string"
+				variable = "value"
+			}
+			Unit = {
+				node = "54cb1850-72d9-43fb-b43b-315cd0d414f9"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		name = "SteamVR Set Unit Highlight"
+		out_events = {
+			Out = [
+				{
+					event = 0
+					id = "a426a2f8-d3ef-4b1f-8752-1d7f46241426:0"
+					node = "a426a2f8-d3ef-4b1f-8752-1d7f46241426"
+				}
+			]
+		}
+		query = false
+		return_values = [
+		]
+		type = "custom_script_node"
+		variable_values = {
+			Alpha = 1
+			Color = [
+				255
+				198
+				0
+			]
+			Enable = true
+			Mask = null
+			MaterialSlot = null
+			Mesh = null
+			Unit = null
+		}
+		variables = [
+			{
+				name = "Unit"
+				type = "unit"
+			}
+			{
+				name = "Mesh"
+				type = "string"
+			}
+			{
+				name = "MaterialSlot"
+				type = "string"
+			}
+			{
+				name = "Color"
+				type = "vector3"
+			}
+			{
+				name = "Enable"
+				type = "bool"
+			}
+			{
+				name = "Alpha"
+				type = "float"
+			}
+			{
+				name = "Mask"
+				type = "float"
+			}
+		]
+	}
+	{
+		id = "1e8eeb2e-88bb-411a-9efb-e95c4e2cabe1"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "6ac75055-38ff-4f71-83f6-afa1c27fc87f:0"
+					node = "6ac75055-38ff-4f71-83f6-afa1c27fc87f"
+				}
+			]
+		}
+		type = "external_event"
+		variable_values = {
+			event_name = "highlight_off"
+		}
+	}
+	{
+		id = "66b00d81-524b-4d59-8060-ba5bb9bed94b"
+		in_variables = {
+			name = {
+				type = "string"
+			}
+			scope = {
+				type = "string"
+			}
+		}
+		out_variables = {
+			string = {
+				type = "string"
+			}
+		}
+		type = "get_string_variable"
+		variable_values = {
+			name = "controller_touch_index"
+			scope = "global"
+			string = null
+		}
+	}
+	{
+		flow_nodes_resource = "vr_steam/script/steam_vr"
+		id = "a426a2f8-d3ef-4b1f-8752-1d7f46241426"
+		in_variables = {
+			controllerIndex = {
+				node = "66b00d81-524b-4d59-8060-ba5bb9bed94b"
+				type = "string"
+				variable = "string"
+			}
+			seconds = {
+				type = "float"
+			}
+		}
+		name = "SteamVR Controller Feedback"
+		query = false
+		return_values = [
+		]
+		type = "custom_script_node"
+		variable_values = {
+			controllerIndex = null
+			seconds = 0.003
+		}
+		variables = [
+			{
+				name = "controllerIndex"
+				type = "string"
+			}
+			{
+				name = "seconds"
+				type = "float"
+			}
+		]
+	}
+	{
+		id = "35ea20b8-0a1a-4759-8993-a4064c77fd84"
+		out_variables = {
+			value = {
+				type = "vector3"
+			}
+		}
+		type = "vector3_data"
+		variable_values = {
+			set = [
+				0
+				0
+				0
+			]
+			value = null
+		}
+	}
+	{
+		id = "7cac93ef-8111-4e0b-8cfd-e457e9c1f55c"
+		out_variables = {
+			value = {
+				type = "vector3"
+			}
+		}
+		type = "vector3_data"
+		variable_values = {
+			set = [
+				0
+				2.5
+				0
+			]
+			value = null
+		}
+	}
+]

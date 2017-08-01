@@ -1,0 +1,43 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 44.4806539363305
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			28.5680446624756
+			32.8010940551758
+			13.9899997711182
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0344902090728283
+			-0.0880865529179573
+			0.926990032196045
+			0.362961024045944
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	Structure = "content/models/City-Aura/M_Tile-Marble-Cream-02"
+}
+renderables = {
+	"S_ARCH_BldgE-F2-SemiCylinder-3LWindow" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

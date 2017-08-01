@@ -1,0 +1,326 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Leave"
+		FromNode = "e82573b6-736c-4dec-b561-fe39c512e2a5"
+		Id = "16a75528-2dd6-48b9-9979-53c7dc1a8102"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "570cd778-b326-47b0-8e2b-06163b290d3e"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "StartTouch"
+		FromNode = "a1bf6305-fc41-4ffe-bebf-3d7ecd2b92cb"
+		Id = "53a0576e-99d4-4cce-a449-22052fafec4d"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "0b420816-37ea-4237-9872-403d5a4a6491"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "TouchingUnit"
+		FromNode = "a1bf6305-fc41-4ffe-bebf-3d7ecd2b92cb"
+		Id = "85d0c727-e15d-4282-b6ee-ab0ace11a907"
+		ToItem = "Unit"
+		ToNode = "1028b182-114d-42f0-a1c0-c5b346b21bd1"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Leave"
+		FromNode = "04288983-a462-40b4-a066-c4063e34b8ed"
+		Id = "affc3c5d-ad4f-4d5a-9e69-5e30a1fa9c76"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "d0eaf2ff-83f2-4a9a-a522-c5c19739c496"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "TouchingUnit"
+		FromNode = "6487033e-525f-44b3-8a2b-efdccfc95ad8"
+		Id = "1111cead-d043-41c1-afec-6c3aa9ac6b8f"
+		ToItem = "Unit"
+		ToNode = "1028b182-114d-42f0-a1c0-c5b346b21bd1"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Value"
+		FromNode = "9561061d-5d0a-4ec4-abdb-d44f3d865179"
+		Id = "25e21206-bd97-4213-89d7-7b0541c6b065"
+		ToItem = "Condition"
+		ToNode = "43bb33c5-8e1d-47d4-9817-2abc20ef5090"
+		Type = "Bool"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "TouchingUnit"
+		FromNode = "ba7598c4-608b-48a9-adad-53eacce35900"
+		Id = "29158a07-db44-4a1b-ad37-c606214a2b95"
+		ToItem = "Unit"
+		ToNode = "9561061d-5d0a-4ec4-abdb-d44f3d865179"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "6487033e-525f-44b3-8a2b-efdccfc95ad8"
+		Id = "2c9e9fa0-fc72-4ea7-a73e-4a3b52c2c92e"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "0b420816-37ea-4237-9872-403d5a4a6491"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "True"
+		FromNode = "0b420816-37ea-4237-9872-403d5a4a6491"
+		Id = "4151e76b-9122-45a4-8731-2db5e1af6847"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "7504b4c1-0c07-4b18-b737-abaeff2ab37e"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "True"
+		FromNode = "43bb33c5-8e1d-47d4-9817-2abc20ef5090"
+		Id = "8279d03b-9065-446f-9cd7-79da093492c1"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "61d07c6f-6ba1-48e8-97ba-ae5f630e6dd0"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Value"
+		FromNode = "1028b182-114d-42f0-a1c0-c5b346b21bd1"
+		Id = "e06506fa-8051-4db8-bef3-2d93b2bee195"
+		ToItem = "Condition"
+		ToNode = "0b420816-37ea-4237-9872-403d5a4a6491"
+		Type = "Bool"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "ba7598c4-608b-48a9-adad-53eacce35900"
+		Id = "e8a47bee-fcce-4abb-aea4-5d9157e74d9c"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "43bb33c5-8e1d-47d4-9817-2abc20ef5090"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "04288983-a462-40b4-a066-c4063e34b8ed"
+		Id = "070b9e62-33b3-4cbf-a5fe-aca3fe45bd38"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "e52738f1-6b03-4615-aa5c-2bcbe849bf9a"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Leave"
+		FromNode = "04288983-a462-40b4-a066-c4063e34b8ed"
+		Id = "843725fa-8197-4a3d-8fd5-b901ca15e02d"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "6f558522-9e49-42ce-8bdb-831ba7faeb62"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "e82573b6-736c-4dec-b561-fe39c512e2a5"
+		Id = "23a79bb1-d0cc-441b-9e34-fa0114fa9097"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "6f558522-9e49-42ce-8bdb-831ba7faeb62"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "e82573b6-736c-4dec-b561-fe39c512e2a5"
+		Id = "5f7dd920-92c1-4041-b631-66c1a139abb6"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "83570c2b-a069-4ee8-984f-00d138f2c24e"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "04288983-a462-40b4-a066-c4063e34b8ed"
+		Id = "75ad9f6b-af95-427d-b2af-e07be3cae337"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "d50e952b-43e5-4326-997f-282e837056f2"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Category = "Animation"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "animation_event"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "83570c2b-a069-4ee8-984f-00d138f2c24e"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = true
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "CloseDoor"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 380
+			Y = -160
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Send Animation Controller Event"
+		Width = 240
+	}
+	{
+		Actor = {
+			Value = "Trigger_Close"
+		}
+		Category = "Event"
+		Class = "Stingray.Flow.PhysicsTrigger"
+		Enter = {
+		}
+		Id = "e82573b6-736c-4dec-b561-fe39c512e2a5"
+		Leave = {
+		}
+		NodeLocation = {
+			X = 20
+			Y = -240
+		}
+		Title = "Physics Trigger"
+		TouchedActor = {
+		}
+		TouchingActor = {
+		}
+		TouchingUnit = {
+		}
+		Width = 160
+	}
+	{
+		Actor = {
+			Value = "Trigger_Open"
+		}
+		Category = "Event"
+		Class = "Stingray.Flow.PhysicsTrigger"
+		Enter = {
+		}
+		Id = "04288983-a462-40b4-a066-c4063e34b8ed"
+		Leave = {
+		}
+		NodeLocation = {
+			X = 20
+			Y = -580
+		}
+		Title = "Physics Trigger"
+		TouchedActor = {
+		}
+		TouchingActor = {
+		}
+		TouchingUnit = {
+		}
+		Width = 160
+	}
+	{
+		Category = "Animation"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "animation_event"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "d50e952b-43e5-4326-997f-282e837056f2"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = true
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "OpenDoor"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 380
+			Y = -520
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Send Animation Controller Event"
+		Width = 240
+	}
+]

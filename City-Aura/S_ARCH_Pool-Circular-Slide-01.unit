@@ -1,0 +1,45 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 83.4708500753656
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			46.3870315551758
+			48.3415412902832
+			48.0520629882813
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115916900336742
+			-0.279848128557205
+			0.880476236343384
+			0.364705175161362
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Drain = "content/models/City-Aura/M_Chrome-01"
+	PoolArea = "content/models/City-Aura/M_Tile-Marble-Gray-01a"
+	Slide = "content/models/City-Aura/M_Paint-Plaster-White-04"
+	Structure = "content/models/City-Aura/M_Tile-Marble-WhiteBlack-01a"
+}
+renderables = {
+	"S_ARCH_Pool-Circular-Slide-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

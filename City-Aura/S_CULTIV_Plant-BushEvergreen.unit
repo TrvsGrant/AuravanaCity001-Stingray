@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.985655085802
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [0.261494994163513 1.78504908084869 0.832234621047974]
+		projection_type = "perspective"
+		rotation = [-0.0140861747786403 -0.214095681905746 0.974603950977325 0.0641227662563324]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-BushEvergreen Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-BushEvergreen"
+}
+renderables = {
+	"S_CULTIV_Plant-BushEvergreen" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

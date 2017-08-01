@@ -1,0 +1,419 @@
+
+_data_root_version = 8
+_id = "1ecd1249-34a4-4ad3-aa2c-dacd60c1907f"
+_name = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01"
+anim_event_root_folder_name = "Events"
+anim_skeleton_ref = {
+	_id = "bbc47d4f-bcf3-445b-8802-ef6f04d21e3e"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01"
+	events = {
+		"Anim End" = {
+		}
+		CloseDoor = {
+		}
+		OpenDoor = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Empty"
+			states = [
+				{
+					animations = [
+						"content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01_DoorClosing"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorClosing"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Anim End"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "Empty"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01_DoorOpening"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorOpening"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "CloseDoor"
+							is_switch = false
+							mode = "wait"
+							on_beat = ""
+							to = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorClosing"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					name = "Empty"
+					state_type = "empty"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "OpenDoor"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorOpening"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+constraint_root_folder_name = "Constraints"
+constraint_target_root_folder_name = "Constraint Targets"
+constraint_targets = {
+	_id = "2c3bab55-3de2-4f64-b342-1f04d23edb8e"
+	_name = "Constraint Targets"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+constraints = {
+	_id = "7ae39870-e13a-4639-8a64-f2e8a4018332"
+	_name = "Constraints"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+events = {
+	_id = "9a2b06be-a5b4-420b-aecd-a478062627fe"
+	_name = "Events"
+	data_list = [
+		{
+			_id = "d56b8918-f1b1-43ce-9a22-66d27b1f50cd"
+			_name = "Anim End"
+		}
+		{
+			_id = "7ee3a645-950f-4bfa-aa7c-05c1b66d558e"
+			_name = "OpenDoor"
+		}
+		{
+			_id = "48a1e0c3-cbab-470a-a73a-1dcf1ebf2a8d"
+			_name = "CloseDoor"
+		}
+	]
+	sub_folders = [
+	]
+}
+layers = [
+	{
+		_id = "911ef5df-d443-4304-961b-93e4974fdae3"
+		_name = "Base"
+		anim_blend_set_ref = {
+			_id = "52ef5408-c324-4077-aab5-2159b04d42ec"
+			ref_filename = null
+			ref_id = null
+		}
+		blend_states = [
+		]
+		constraints = [
+		]
+		default_state_ref = {
+			_id = "3fed7433-9e67-439d-9c54-2e626b03d6bc"
+			ref_filename = null
+			ref_id = "ccd7f920-b244-43fd-97b3-f40765ca8248"
+		}
+		empty_states = [
+			{
+				_id = "ccd7f920-b244-43fd-97b3-f40765ca8248"
+				_name = "Empty"
+				anim_blend_set_ref = {
+					_id = "d6513c77-b13c-4aec-92f4-a84e0dbb8854"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "62791675-06e9-44de-869b-918e7184b815"
+					ref_filename = null
+					ref_id = "d56b8918-f1b1-43ce-9a22-66d27b1f50cd"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "7a01f0b8-e09e-4402-a25d-e20581436d43"
+						actual_target_ref = {
+							_id = "4614b58a-ae46-4296-9c4b-c4143b01eb4e"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "7283130f-5c15-48a1-b949-0b5a4bbba4a6"
+							ref_filename = null
+							ref_id = "7ee3a645-950f-4bfa-aa7c-05c1b66d558e"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "e7013ee6-2f70-4766-9395-61f5928e333b"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "cdb86d0c-83f6-4e7f-b60f-85aec4ac64ff"
+							ref_filename = null
+							ref_id = "613f11ce-b595-43d8-960a-272fdbd432db"
+						}
+					}
+				]
+				weights = [
+				]
+				width = 150
+				x = 100
+				y = 100
+			}
+		]
+		group_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "54c7796b-7116-4488-9d6b-132e3e1660a9"
+				_name = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorClosing"
+				anim_blend_set_ref = {
+					_id = "e82c89e1-3f74-4aea-bfcc-71e32ba09ffe"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "fddd35b6-80d7-4a5d-929d-95eb6e175274"
+						ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01_DoorClosing.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "6ab01fed-4236-44be-a798-37c789c5ede8"
+					ref_filename = null
+					ref_id = "d56b8918-f1b1-43ce-9a22-66d27b1f50cd"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "826640c7-bac0-429c-8323-ac045b927438"
+						actual_target_ref = {
+							_id = "a2a9aa7e-bbc7-46f2-9ead-d4caa37ae557"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "918729a3-4c9e-4c98-b12c-0a72ba894ea1"
+							ref_filename = null
+							ref_id = "d56b8918-f1b1-43ce-9a22-66d27b1f50cd"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "043523e9-5eed-41b9-aec9-779645d37f05"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "892c9a7b-75af-4e7e-ac8c-525cea240175"
+							ref_filename = null
+							ref_id = "ccd7f920-b244-43fd-97b3-f40765ca8248"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 280
+				y = 280
+			}
+			{
+				_id = "613f11ce-b595-43d8-960a-272fdbd432db"
+				_name = "D_ARCH_Door_UtilityLarge_TwoOutward_01_DoorOpening"
+				anim_blend_set_ref = {
+					_id = "952e2d1f-6594-4b3b-a574-f79d6a33e0a8"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "b0be7df6-48f6-4d78-9d0f-789aec467f86"
+						ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01_DoorOpening.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "42c1d18f-1761-4df9-b104-5ecbbe77b559"
+					ref_filename = null
+					ref_id = "d56b8918-f1b1-43ce-9a22-66d27b1f50cd"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "d97e1ee1-af61-41cc-9874-78c5797d93ff"
+						actual_target_ref = {
+							_id = "4eb2e0f0-c64d-4021-9a46-7b1e46175e70"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "2e8e9f4c-aedf-4044-a64c-44857a12038a"
+							ref_filename = null
+							ref_id = "48a1e0c3-cbab-470a-a73a-1dcf1ebf2a8d"
+						}
+						has_nested_from = false
+						mode = "wait"
+						nested_from_ref = {
+							_id = "2d6e1759-7812-46d8-b5bb-acaa960f4ced"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "f101116c-079c-4ec9-a7e6-ef30d5ec5d89"
+							ref_filename = null
+							ref_id = "54c7796b-7116-4488-9d6b-132e3e1660a9"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -60
+				y = 280
+			}
+		]
+		time_states = [
+		]
+		transition_switches = [
+		]
+	}
+]
+ragdoll_root_folder_name = "Ragdolls"
+ragdolls = {
+	_id = "9de5f4fe-56a0-424f-aa02-98fe35245b50"
+	_name = "Ragdolls"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+setup = {
+	_id = "d91f257b-bffc-4237-b04c-d01e22951189"
+	level = "core/editor_slave/resources/levels/animation_preview"
+	unit_ref = {
+		_id = "423d6b3f-45c0-49d9-859c-8c07513b5000"
+		ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.unit_anim"
+		ref_id = null
+	}
+}
+variable_root_folder_name = "Variables"
+variables = {
+	_id = "7f2f460a-86ae-4a7e-ac8d-661e2f590f6f"
+	_name = "Variables"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}

@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.9372894815545
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [-0.0787380635738373 -1.92591857910156 0.555529117584229]
+		projection_type = "perspective"
+		rotation = [0.0257054790854454 -0.00127334496937692 0.0494588539004326 -0.998444557189941]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-FlowerAsiaticLilly Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-FlowerAsiaticLilly"
+}
+renderables = {
+	"S_CULTIV_Plant-FlowerAsiaticLilly" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

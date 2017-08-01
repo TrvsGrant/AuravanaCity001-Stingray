@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 10.7860030903876
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-0.716391980648041
+			10.7404098510742
+			2.0498673915863
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.0010565766133368
+			-0.0317168682813644
+			0.998942196369171
+			-0.0332781039178371
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CONST_ROLLER_ChannelCutter-01" = "content/models/City-Aura/M_CONST_ROLLER_ChannelCutter-01"
+}
+renderables = {
+	"S_CONST_ROLLER_ChannelCutter-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

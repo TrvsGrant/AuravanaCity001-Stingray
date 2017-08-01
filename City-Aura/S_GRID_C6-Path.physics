@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_GRID_C6-Path"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_GRID_C6-Path"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

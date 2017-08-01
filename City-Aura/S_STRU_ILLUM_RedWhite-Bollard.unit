@@ -1,0 +1,45 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.49097878766292
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-0.0142184123396873
+			1.11888587474823
+			1.55835175514221
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.00294583104550838
+			-0.377622693777084
+			0.925926685333252
+			-0.00722308410331607
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_STRU_ILLUM_RedWhite-Bollard Slot #1" = "autodesk-materials/car-paint/car-paint-white/car_paint_white"
+	"M_STRU_ILLUM_RedWhite-Bollard Slot #2" = "content/models/City-Aura/M_Illumination-White"
+	"M_STRU_ILLUM_RedWhite-Bollard Slot #3" = "content/models/City-Aura/M_Illumination-Red"
+	"M_STRU_ILLUM_RedWhite-Bollard Slot #5" = "content/models/City-Aura/M_Panel-SolarBlueGliter_a"
+}
+renderables = {
+	"S_STRU_ILLUM_RedWhite-Bollard" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

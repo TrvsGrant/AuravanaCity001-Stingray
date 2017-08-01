@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 6.36669665438588
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			5.88001155853271
+			2.09682822227478
+			3.53083419799805
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.08705173432827
+			0.121756680309772
+			-0.804308593273163
+			-0.575052261352539
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-HedgeArch Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-HedgeArch"
+}
+renderables = {
+	"S_CULTIV_Plant-HedgeArch" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

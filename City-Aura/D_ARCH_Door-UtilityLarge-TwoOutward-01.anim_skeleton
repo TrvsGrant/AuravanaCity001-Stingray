@@ -1,0 +1,54 @@
+
+_data_root_version = 1
+_id = "34cbc3cd-1b9b-42d5-89ef-00016a6aa2d1"
+_name = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "0822f383-6f63-4a2b-9972-6baf29a6e0f2"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "928df516-c7d1-48f0-9cf0-42a6b54f733a"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "e40283f6-a489-4bdc-8601-33b1f70a130b"
+		_name = "Frame"
+		lod_level = 5
+	}
+	{
+		_id = "2acedef9-08e0-4a88-8254-a240f6ce1942"
+		_name = "Left"
+		lod_level = 5
+	}
+	{
+		_id = "dce4ea56-fd41-4143-8d21-b81ae72bfb69"
+		_name = "Right"
+		lod_level = 5
+	}
+	{
+		_id = "57fb3959-0535-47a8-8743-4f23a4ea1a93"
+		_name = "Trigger_Open"
+		lod_level = 5
+	}
+	{
+		_id = "f9adf7fe-58ae-48ec-8c9a-6b8f8d0ec56d"
+		_name = "Trigger_Close"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "413a12e0-edfc-44d5-b5c5-33bc510168c9"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "8d02009b-7f80-4ab4-a99b-21ec21b35988"
+	ref_filename = null
+	ref_id = null
+}

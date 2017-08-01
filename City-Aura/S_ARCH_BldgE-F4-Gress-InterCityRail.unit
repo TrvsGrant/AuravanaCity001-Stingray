@@ -1,0 +1,45 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 66.3630227230373
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-22.8057136535645
+			50.9858741760254
+			47.5817718505859
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.0587408244609833
+			-0.275188118219376
+			0.938452541828156
+			-0.200319319963455
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	Rails = "content/models/City-Aura/M_Copper-01"
+	SolarPanels = "content/models/City-Aura/M_Panel-SolarBlueGliter_a"
+	Structure = "content/models/City-Aura/M_Concrete-White-04"
+}
+renderables = {
+	"S_ARCH_BldgE-F4-Gress-InterCityRail" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

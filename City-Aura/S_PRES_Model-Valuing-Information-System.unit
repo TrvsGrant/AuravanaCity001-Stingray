@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 17.7138629380439
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			9.21198081970215
+			5.95612907409668
+			13.7978067398071
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.239813715219498
+			-0.374390572309494
+			0.754256248474121
+			0.483134150505066
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	default = "content/models/City-Aura/M_PRES_Model-Valuing-Information-System"
+}
+renderables = {
+	"PRES_Model-Valuing-Information-System" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

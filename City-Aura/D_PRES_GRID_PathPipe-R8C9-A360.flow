@@ -1,0 +1,59 @@
+
+nodes = [
+	{
+		id = "e0e9c399-dd22-46df-be58-ba85e2e5d2f9"
+		in_variables = {
+			animation = {
+				type = "id"
+			}
+			blendtime = {
+				type = "float"
+			}
+			loop = {
+				type = "bool"
+			}
+			speed = {
+				type = "float"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "generic_animation"
+		variable_values = {
+			animation = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"
+			blendtime = 0.5
+			loop = false
+			speed = 1
+			unit = null
+		}
+	}
+	{
+		id = "c6e7a00f-52f6-4e93-8cfd-a5fcf586872f"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "e0e9c399-dd22-46df-be58-ba85e2e5d2f9:0"
+					node = "e0e9c399-dd22-46df-be58-ba85e2e5d2f9"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "TriggerArea"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

@@ -1,0 +1,33 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F4-TrillianCurv-Floor1"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F4-TrillianCurv-Floor1"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F4-TrillianCurv"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F4-TrillianCurv"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

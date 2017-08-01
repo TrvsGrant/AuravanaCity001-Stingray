@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.5993867048365
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			2.04696488380432
+			1.05687952041626
+			1.63944101333618
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.131999015808105
+			-0.232045859098434
+			0.837661325931549
+			0.476502388715744
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-GrassFlowerPurple Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-GrassFlowerPurple"
+}
+renderables = {
+	"S_CULTIV_Plant-GrassFlowerPurple" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

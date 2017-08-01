@@ -1,0 +1,30 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 24.7896535608668
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [14.312313079834 14.31214427948 19.5662250518799]
+		projection_type = "perspective"
+		rotation = [-0.115916900336742 -0.279848128557205 0.880476236343384 0.364705175161362]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-OpaqueBlue"
+	Structure = "content/models/City-Aura/M_Concrete-Bare-02"
+}
+renderables = {
+	"S_ARCH_BldgE-F4-Tower-TopSpher004" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

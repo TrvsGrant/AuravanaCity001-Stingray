@@ -1,0 +1,33 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Blades"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Blades"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Tower"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Tower"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

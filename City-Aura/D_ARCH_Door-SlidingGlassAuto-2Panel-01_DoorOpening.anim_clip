@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "d4704432-148d-4500-8af6-295a8a7dc5c0"
+_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorOpening"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "f67cc869-72b2-4725-b62a-f025fbf73517"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "3dc46c0b-8446-4ea4-b61f-a489ddd0d136"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "d394e6a7-7f5f-400d-8b31-a498cc9c2733"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "3e9e7fa5-41de-4fbe-9877-23b0df69792a"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "413d7aa3-baa5-456e-8cff-dfa7047262a8"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "c24fbb21-a53e-4155-8a7e-46ce233e4dd0"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "DoorOpening"
+trimming_end = 1.66666662693024
+trimming_start = 0

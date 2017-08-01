@@ -1,0 +1,82 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "e4a6df38-0846-405f-a4ef-27555a32e821"
+		Id = "cf720e39-d487-4241-b991-bf26760d96fb"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "2305bd8c-4d06-48af-9a7b-8475b5eae8b4"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Actor = {
+			Value = "TriggerArea"
+		}
+		Category = "Event"
+		Class = "Stingray.Flow.PhysicsTrigger"
+		Enter = {
+		}
+		Id = "e4a6df38-0846-405f-a4ef-27555a32e821"
+		Leave = {
+		}
+		NodeLocation = {
+			X = 160
+			Y = 220
+		}
+		Title = "Physics Trigger"
+		TouchedActor = {
+		}
+		TouchingActor = {
+		}
+		TouchingUnit = {
+		}
+		Width = 160
+	}
+	{
+		Animation = {
+			Value = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"
+		}
+		Blendtime = {
+			Value = 0.5
+		}
+		Category = "Animation"
+		Class = "Stingray.Flow.GenericAnimation"
+		Id = "2305bd8c-4d06-48af-9a7b-8475b5eae8b4"
+		Loop = {
+			Value = false
+		}
+		NodeLocation = {
+			X = 480
+			Y = 260
+		}
+		Pause = {
+		}
+		Paused = {
+		}
+		Play = {
+		}
+		Played = {
+		}
+		Resume = {
+		}
+		Resumed = {
+		}
+		Speed = {
+			Value = 1
+		}
+		Stop = {
+		}
+		Stopped = {
+		}
+		Title = "Play Animation Clip"
+		Unit = {
+			UseMyUnit = true
+		}
+		Width = 160
+	}
+]

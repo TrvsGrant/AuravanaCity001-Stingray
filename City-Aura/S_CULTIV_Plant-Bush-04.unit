@@ -1,0 +1,13 @@
+
+renderables = {
+	"S_CULTIV_Plant-Bush-04" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

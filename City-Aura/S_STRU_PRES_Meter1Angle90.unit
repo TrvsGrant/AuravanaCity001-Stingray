@@ -1,0 +1,31 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.77025903032666
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [0.596737921237946 2.52270984649658 1.99067056179047]
+		projection_type = "perspective"
+		rotation = [-0.0212162211537361 -0.180976763367653 0.976570785045624 0.11448497325182]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Border = "content/models/City-Aura/M_Paint-Red-01"
+	Frame = "content/models/City-Aura/M_Paint-White-01"
+	SignArea = "content/models/City-Aura/M_Paint-White-01"
+}
+renderables = {
+	S_STRU_PRES_Meter1Angle90 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

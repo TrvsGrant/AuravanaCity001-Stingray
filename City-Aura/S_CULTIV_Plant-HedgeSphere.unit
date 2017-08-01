@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.71076392026835
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.57634949684143
+			1.60694849491119
+			1.87562310695648
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115916900336742
+			-0.279848128557205
+			0.880476236343384
+			0.364705175161362
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-HedgeSphere Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-HedgeBox"
+}
+renderables = {
+	"S_CULTIV_Plant-HedgeSphere" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

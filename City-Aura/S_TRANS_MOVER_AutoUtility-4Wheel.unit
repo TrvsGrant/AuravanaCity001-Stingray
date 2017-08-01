@@ -1,0 +1,53 @@
+
+data = {
+	Pickup = "Yes"
+	Snap = "Yes"
+}
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.7438458054647
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.4136598110199
+			-1.01907813549042
+			0.375519394874573
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.0162355098873377
+			0.00831037200987339
+			-0.455569803714752
+			-0.890013217926025
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 1.2
+		x = 93.1077171199999
+		y = -896.181442559999
+	}
+}
+materials = {
+	"M_TRANS_MOVER_AutoUtility-4Wheel Slot #1" = "content/models/City-Aura/M_TRANS_MOVER_AutoUtility-4Wheel"
+	"M_TRANS_MOVER_AutoUtility-4Wheel Slot #2" = "content/models/City-Aura/M_Illumination-Red"
+	"M_TRANS_MOVER_AutoUtility-4Wheel Slot #3" = "content/models/City-Aura/M_Illumination-White"
+}
+renderables = {
+	"S_TRANS_MOVER_AutoUtility-4Wheel" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

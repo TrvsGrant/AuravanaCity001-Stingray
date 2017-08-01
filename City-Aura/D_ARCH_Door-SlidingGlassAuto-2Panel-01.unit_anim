@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "0f8c7cd5-194f-4243-a8bc-7e1dcff5097f"
+_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01"
+anim_controller_ref = {
+	_id = "82e97cd1-8c1a-4275-8f50-c46c702e6740"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "a78098d9-1f7e-4a0c-bba1-44bce3b7857d"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "8f7b3707-2975-47f3-bb31-316499089b8b"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01"

@@ -1,0 +1,419 @@
+
+_data_root_version = 8
+_id = "e01350c3-acab-46d5-a0f1-7fce5ef6851c"
+_name = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01"
+anim_event_root_folder_name = "Events"
+anim_skeleton_ref = {
+	_id = "b42fc933-de91-43e1-8dfa-bd3dd50ddd36"
+	ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01"
+	events = {
+		"Anim End" = {
+		}
+		CloseDoor = {
+		}
+		OpenDoor = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Empty"
+			states = [
+				{
+					animations = [
+						"content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01_DoorOpening"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_STRU_GRESS_Utility_TwoOutward_01_DoorOpening"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "CloseDoor"
+							is_switch = false
+							mode = "wait"
+							on_beat = ""
+							to = "D_STRU_GRESS_Utility_TwoOutward_01_DoorClosing"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01_DoorClosing"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_STRU_GRESS_Utility_TwoOutward_01_DoorClosing"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Anim End"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "Empty"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					name = "Empty"
+					state_type = "empty"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "OpenDoor"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "D_STRU_GRESS_Utility_TwoOutward_01_DoorOpening"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+constraint_root_folder_name = "Constraints"
+constraint_target_root_folder_name = "Constraint Targets"
+constraint_targets = {
+	_id = "bb874083-2233-431b-b6ae-549332b53d05"
+	_name = "Constraint Targets"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+constraints = {
+	_id = "ce04a099-1c75-41e4-ba57-9c30c9795057"
+	_name = "Constraints"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+events = {
+	_id = "37c03417-b9a9-4178-8d97-7e9502f3850c"
+	_name = "Events"
+	data_list = [
+		{
+			_id = "157746ac-0215-49d8-b09b-e5280a70b426"
+			_name = "Anim End"
+		}
+		{
+			_id = "3995c26d-e517-4128-8925-51b625c10959"
+			_name = "OpenDoor"
+		}
+		{
+			_id = "844aa893-086e-4a71-9fd3-8de2f91bb4c0"
+			_name = "CloseDoor"
+		}
+	]
+	sub_folders = [
+	]
+}
+layers = [
+	{
+		_id = "1d1575b5-90bd-43a8-86b1-ea5414b0defd"
+		_name = "Base"
+		anim_blend_set_ref = {
+			_id = "7a5f70ed-99bd-4f50-82e5-a67ec8ffccb2"
+			ref_filename = null
+			ref_id = null
+		}
+		blend_states = [
+		]
+		constraints = [
+		]
+		default_state_ref = {
+			_id = "9706590d-88a4-4075-a190-03ff8525993f"
+			ref_filename = null
+			ref_id = "dbc85ffc-2823-4ff7-8570-b6a52c9d3cd3"
+		}
+		empty_states = [
+			{
+				_id = "dbc85ffc-2823-4ff7-8570-b6a52c9d3cd3"
+				_name = "Empty"
+				anim_blend_set_ref = {
+					_id = "f4bd6e59-2992-427a-9793-92b5684ceb26"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "9ff5d16b-da75-4509-b798-ade599eee86f"
+					ref_filename = null
+					ref_id = "157746ac-0215-49d8-b09b-e5280a70b426"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "61dcbfd6-9cd4-406a-9606-bc6caa204317"
+						actual_target_ref = {
+							_id = "a2436e94-a9ef-41aa-abe6-c1d45dcbba36"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "d5ba0b58-9592-42bc-84c7-d179da318c2e"
+							ref_filename = null
+							ref_id = "3995c26d-e517-4128-8925-51b625c10959"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "5d68cfb1-4d5a-4b8d-89ef-33e7f92106e5"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "e20a7361-5a2b-4e07-b3cc-7fbb9c4f71a1"
+							ref_filename = null
+							ref_id = "ae706740-25a4-4012-ac01-fa29daaf37c1"
+						}
+					}
+				]
+				weights = [
+				]
+				width = 150
+				x = 120
+				y = 0
+			}
+		]
+		group_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "ae706740-25a4-4012-ac01-fa29daaf37c1"
+				_name = "D_STRU_GRESS_Utility_TwoOutward_01_DoorOpening"
+				anim_blend_set_ref = {
+					_id = "316ce4e4-86a5-46cd-a11f-22358fbe10ac"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "a0e99513-eb76-4abf-ae9a-e9a8f84fa57a"
+						ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01_DoorOpening.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "37190e16-1ab8-494f-9ad4-46d1b67ee8a4"
+					ref_filename = null
+					ref_id = "157746ac-0215-49d8-b09b-e5280a70b426"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "9acd8e6b-0f10-462d-ac44-03fff9c8ec40"
+						actual_target_ref = {
+							_id = "5b9f17ff-2dab-489e-9f9c-70e875d51bb2"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "e6453aed-a2db-4d41-b01f-959f1fc2577a"
+							ref_filename = null
+							ref_id = "844aa893-086e-4a71-9fd3-8de2f91bb4c0"
+						}
+						has_nested_from = false
+						mode = "wait"
+						nested_from_ref = {
+							_id = "19e3295c-e818-436b-92bf-2328a17950a0"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "0468a80b-3081-45d5-8dd8-8c392e35dd8a"
+							ref_filename = null
+							ref_id = "8a5fca62-4c74-4c1a-a369-2bf688309c3a"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -80
+				y = 240
+			}
+			{
+				_id = "8a5fca62-4c74-4c1a-a369-2bf688309c3a"
+				_name = "D_STRU_GRESS_Utility_TwoOutward_01_DoorClosing"
+				anim_blend_set_ref = {
+					_id = "70cb104d-edaf-441b-81a2-68da4b5cdd15"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "455c18f9-1b66-4926-9950-7f4c609e1ba8"
+						ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01_DoorClosing.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "ab30a96a-2690-4b8a-ab2b-49cc144a6483"
+					ref_filename = null
+					ref_id = "157746ac-0215-49d8-b09b-e5280a70b426"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "b2a4b0eb-fd3e-4cbe-bf03-8bb8188eaf6b"
+						actual_target_ref = {
+							_id = "7a59aaee-e82d-4a25-84c5-ae34cc153860"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "b6c7ff79-f786-4a33-8d7e-4389f02eea16"
+							ref_filename = null
+							ref_id = "157746ac-0215-49d8-b09b-e5280a70b426"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "eb8bad66-b1dd-4c4b-8dc8-097b8e291152"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "c6217eaa-d752-46ae-befa-391bc1b497f8"
+							ref_filename = null
+							ref_id = "dbc85ffc-2823-4ff7-8570-b6a52c9d3cd3"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 260
+				y = 240
+			}
+		]
+		time_states = [
+		]
+		transition_switches = [
+		]
+	}
+]
+ragdoll_root_folder_name = "Ragdolls"
+ragdolls = {
+	_id = "73cb66e6-3bb5-46cc-9270-42b4c93c5ff6"
+	_name = "Ragdolls"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+setup = {
+	_id = "da8b8f78-d3a9-4c2f-bceb-6649cfd50dca"
+	level = "core/editor_slave/resources/levels/animation_preview"
+	unit_ref = {
+		_id = "112d16e5-6c3f-4c9d-aba6-0381e12a4f5e"
+		ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.unit_anim"
+		ref_id = null
+	}
+}
+variable_root_folder_name = "Variables"
+variables = {
+	_id = "4461e5a5-2137-43a7-8d99-b00800feb4de"
+	_name = "Variables"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_GRID_C2-Pool"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_GRID_C2-Pool"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

@@ -1,0 +1,78 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "Door_Frame"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Door_Frame"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Door_Left"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Door_Left"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "keyframed"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Door_Right"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Door_Right"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "keyframed"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Trigger_Open"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Trigger_Open"
+				template = "trigger"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Trigger_Close"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Trigger_Close"
+				template = "trigger"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

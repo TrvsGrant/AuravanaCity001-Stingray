@@ -1,0 +1,44 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.50078446346043
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-3.93816041946411
+			-0.425711125135422
+			2.21963930130005
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.174505412578583
+			-0.144024312496185
+			0.620025932788849
+			-0.751247465610504
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"Cattle_Mix Slot #1" = "content/models/City-Aura/M_CULTIV_Animal-CattleMix-01"
+	"Cattle_Mix Slot #2" = "content/models/City-Aura/M_CULTIV_Animal-CattleMix-01"
+	"Cattle_Mix Slot #3" = "content/models/City-Aura/M_CULTIV_Animal-CattleMix-01"
+}
+renderables = {
+	"S_CULTIV_Animal-CattleMix-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

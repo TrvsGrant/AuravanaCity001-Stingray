@@ -1,0 +1,59 @@
+
+nodes = [
+	{
+		id = "08face51-c604-4036-902b-321406a6e5f7"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "d9c372f4-969d-4888-a942-09ecf4312156:0"
+					node = "d9c372f4-969d-4888-a942-09ecf4312156"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "S_TriggerArea001"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "d9c372f4-969d-4888-a942-09ecf4312156"
+		in_variables = {
+			animation = {
+				type = "id"
+			}
+			blendtime = {
+				type = "float"
+			}
+			loop = {
+				type = "bool"
+			}
+			speed = {
+				type = "float"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "generic_animation"
+		variable_values = {
+			animation = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork"
+			blendtime = 0.5
+			loop = false
+			speed = 1
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

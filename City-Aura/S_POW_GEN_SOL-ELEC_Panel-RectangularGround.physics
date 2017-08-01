@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_POW_GEN_SOL-ELEC_Panel-RectangularGround"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_POW_GEN_SOL-ELEC_Panel-RectangularGround"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

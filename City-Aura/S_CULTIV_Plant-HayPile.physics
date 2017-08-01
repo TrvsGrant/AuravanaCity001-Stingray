@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_CULTIV_Plant-HayPile"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_CULTIV_Plant-HayPile"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

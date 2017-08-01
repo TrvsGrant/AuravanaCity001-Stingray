@@ -1,0 +1,144 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Pressed"
+		FromNode = "1af7fc0e-26eb-4770-b8b1-ed53c8208422"
+		Id = "d733df31-d0db-4b1d-b25f-f45e4739d146"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "f7f81698-697a-4423-9791-164a68392b56"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Category = "Input"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "mouse_button_input"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "1af7fc0e-26eb-4770-b8b1-ed53c8208422"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = true
+				RawName = "device"
+				Type = "enum"
+				UIName = "Device"
+				Variable = {
+					Class = "Stingray.Flow.InEnumVariable"
+					Value = "mouse"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = true
+				RawName = "device_number"
+				Type = "float"
+				UIName = "Device Number"
+				Variable = {
+					Class = "Stingray.Flow.InVariableFloat"
+					Value = 0
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "button_name"
+				Type = "enum"
+				UIName = "Button Name"
+				Variable = {
+					Class = "Stingray.Flow.InEnumVariable"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 120
+			Y = 460
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "value"
+				Type = "float"
+				UIName = "Value"
+				Variable = {
+					Class = "Stingray.Flow.OutVariableFloat"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "pressed"
+				Type = "event"
+				UIName = "Pressed"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "released"
+				Type = "event"
+				UIName = "Released"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "held"
+				Type = "event"
+				UIName = "Held"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Mouse Button"
+		Width = 160
+	}
+	{
+		Animation = {
+			Value = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT"
+		}
+		Blendtime = {
+			Value = 0.5
+		}
+		Category = "Animation"
+		Class = "Stingray.Flow.GenericAnimation"
+		Id = "f7f81698-697a-4423-9791-164a68392b56"
+		Loop = {
+			Value = false
+		}
+		NodeLocation = {
+			X = 460
+			Y = 400
+		}
+		Pause = {
+		}
+		Paused = {
+		}
+		Play = {
+		}
+		Played = {
+		}
+		Resume = {
+		}
+		Resumed = {
+		}
+		Speed = {
+			Value = 1
+		}
+		Stop = {
+		}
+		Stopped = {
+		}
+		Title = "Play Animation Clip"
+		Unit = {
+			UseMyUnit = true
+		}
+		Width = 160
+	}
+]

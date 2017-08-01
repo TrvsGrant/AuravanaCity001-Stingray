@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.91234160181432
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.68558168411255
+			1.0245840549469
+			0.963595032691956
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0197131074965
+			-0.0390300340950489
+			0.891754388809204
+			0.450402289628983
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-GrapeVine-Fenced Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-GrapeVine-Fenced"
+}
+renderables = {
+	"S_CULTIV_Plant-GrapeVine-Fenced" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

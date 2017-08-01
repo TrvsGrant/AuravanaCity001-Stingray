@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F5-Star-8Petal-CuboidSupports001"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F5-Star-8Petal-CuboidSupports001"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "dynamic"
+	}
+]

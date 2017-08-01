@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 167.093690137547
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [-126.149703979492 108.065093994141 130.404022216797]
+		projection_type = "perspective"
+		rotation = [0.0330557115375996 -0.0789976418018341 0.919106483459473 -0.384590685367584]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-Bamboo-01 Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-Bamboo-01"
+}
+renderables = {
+	"S_CULTIV_Plant-Bamboo-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

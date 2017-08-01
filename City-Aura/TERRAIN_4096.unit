@@ -1,0 +1,68 @@
+
+terrains = {
+	terrain = {
+		base_material = "default"
+		height = [0 1000]
+		layers = [
+			{
+				file = "content/models/City-Aura/TERRAIN_4096_hmap"
+				resolution = 4096
+				type = "hmap"
+			}
+			{
+				file = "content/models/City-Aura/TERRAIN_4096_mat0"
+				resolution = 4096
+				surface_properties = {
+				}
+				type = "material"
+				undergrowth = [
+					[
+						{
+							density = 0.003
+							mesh = "S_CULTIV_Plant-GrassFlowerPurple"
+							unit = "content/models/City-Aura/S_CULTIV_Plant-GrassFlowerPurple"
+						}
+						{
+							density = 0.01
+							mesh = "g_Grass_Large_Type_2_2"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_large_type_2_2"
+						}
+						{
+							density = 0.01
+							mesh = "g_Grass_Large_Type_1_1"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_large_type_1_1"
+						}
+					]
+					[
+						{
+							density = 0.01
+							mesh = "g_Grass_Short_Type_1_2"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_short_type_1_2"
+						}
+						{
+							density = 0.01
+							mesh = "g_Grass_Short_Type_2_2"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_short_type_2_2"
+						}
+						{
+							density = 0.01
+							mesh = "g_Grass_Medium_Type_2_2"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_medium_type_2_2"
+						}
+						{
+							density = 0.01
+							mesh = "g_Grass_Large_Type_2_2"
+							unit = "autodesk-assets/plants/dynamic_grass_package/grass_large_type_2_2"
+						}
+					]
+					[
+					]
+					[
+					]
+				]
+			}
+		]
+		node = "terrain"
+		size = [4096 4096]
+	}
+}

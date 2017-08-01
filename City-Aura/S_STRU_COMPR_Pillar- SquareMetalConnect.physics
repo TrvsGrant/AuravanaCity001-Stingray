@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_STRU_COMPR_Pillar- SquareMetalConnect"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_STRU_COMPR_Pillar- SquareMetalConnect"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

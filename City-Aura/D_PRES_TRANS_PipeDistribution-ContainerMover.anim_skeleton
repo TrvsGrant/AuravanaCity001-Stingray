@@ -1,0 +1,94 @@
+
+_data_root_version = 1
+_id = "7fd6953a-693e-4103-ba62-f50e2c090819"
+_name = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "ede3e96e-7174-495b-978b-16243a664ac8"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "04157725-895a-454b-bdb8-71577a5a5b9d"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "7aba6cce-97c7-41d6-9481-8fb80f8b1b25"
+		_name = "Display_Platform"
+		lod_level = 5
+	}
+	{
+		_id = "4572d102-7b61-400d-bd50-5c917992b3c9"
+		_name = "Conveyor"
+		lod_level = 5
+	}
+	{
+		_id = "28a183b2-362b-43d8-a4e8-00f55f6d1c22"
+		_name = "Mover"
+		lod_level = 5
+	}
+	{
+		_id = "c084f75c-0b81-47c6-bc7b-8b20ff202a12"
+		_name = "Pipes"
+		lod_level = 5
+	}
+	{
+		_id = "d4603499-eeac-479f-a045-5c016d0d1365"
+		_name = "TriggerArea"
+		lod_level = 5
+	}
+	{
+		_id = "5f99fd7f-6fa3-425c-a3a4-f4db85d31f52"
+		_name = "TextBackboard"
+		lod_level = 5
+	}
+	{
+		_id = "ade4f889-b091-450b-b6e7-35bb36496396"
+		_name = "Container001"
+		lod_level = 5
+	}
+	{
+		_id = "e32d4d61-d6ed-4747-858d-60ee64a26840"
+		_name = "Rail"
+		lod_level = 5
+	}
+	{
+		_id = "a2553604-f170-4612-aacf-1557f914ed48"
+		_name = "Mover_ConnectorLeft"
+		lod_level = 5
+	}
+	{
+		_id = "ecc26f12-c36f-4e5c-9618-9a6baa17f1f5"
+		_name = "Mover_ConnectorRight"
+		lod_level = 5
+	}
+	{
+		_id = "9916f57f-b851-4b7f-9215-28b941176c74"
+		_name = "Text"
+		lod_level = 5
+	}
+	{
+		_id = "0db21bf5-95ae-4552-9490-397bed0852b9"
+		_name = "Flap_Left"
+		lod_level = 5
+	}
+	{
+		_id = "88b6a8d8-a81c-411a-806a-7d4191df9d66"
+		_name = "Flap_Right"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "dbb15085-591b-477e-a5c7-a6df92e9f044"
+	ref_filename = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "d462b0bb-298b-4d1e-8888-bb80586b57bd"
+	ref_filename = null
+	ref_id = null
+}

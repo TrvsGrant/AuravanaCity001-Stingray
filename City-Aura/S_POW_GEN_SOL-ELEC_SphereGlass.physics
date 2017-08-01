@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_POW_GEN_SOL-ELEC_SphereGlass"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_POW_GEN_SOL-ELEC_SphereGlass"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

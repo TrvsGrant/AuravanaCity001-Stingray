@@ -1,0 +1,70 @@
+
+nodes = [
+	{
+		id = "1af7fc0e-26eb-4770-b8b1-ed53c8208422"
+		in_variables = {
+			button_name = {
+				type = "string"
+			}
+			device = {
+				type = "string"
+			}
+			device_number = {
+				type = "float"
+			}
+		}
+		out_events = {
+			pressed = [
+				{
+					event = 0
+					id = "f7f81698-697a-4423-9791-164a68392b56:0"
+					node = "f7f81698-697a-4423-9791-164a68392b56"
+				}
+			]
+		}
+		type = "mouse_button_input"
+		variable_values = {
+			button_name = null
+			device = "mouse"
+			device_number = 0
+			value = null
+		}
+	}
+	{
+		id = "f7f81698-697a-4423-9791-164a68392b56"
+		in_variables = {
+			animation = {
+				type = "id"
+			}
+			blendtime = {
+				type = "float"
+			}
+			loop = {
+				type = "bool"
+			}
+			speed = {
+				type = "float"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "generic_animation"
+		variable_values = {
+			animation = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT"
+			blendtime = 0.5
+			loop = false
+			speed = 1
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

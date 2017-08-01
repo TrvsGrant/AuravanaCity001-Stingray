@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_CULT_PlanterBench-Circular"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_CULT_PlanterBench-Circular"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

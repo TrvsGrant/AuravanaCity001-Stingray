@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "f04d9ae3-7de5-415a-bbbb-9fb9c2d34fc0"
+_name = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01_DoorClosing"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "8bbcc8a1-8c8d-4755-a7bf-6a72b4c15f04"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "f5bc8345-c882-4f1d-9746-7794b36b2ff4"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "b12a9ca7-410c-44d9-a7d5-7c5de8dd7c59"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "bfc176d3-8587-42e6-9bfa-1b1d5a4c8241"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "d2307184-ae3f-42aa-8b68-baf133052ff0"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "7d98c09f-d6a5-40eb-9eb5-f67597c2329f"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "DoorClosing"
+trimming_end = 3
+trimming_start = 0

@@ -1,0 +1,16 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Out"
+		FromNode = "d58891cb-82c4-4152-9004-e029fd5446da"
+		Id = "d764d1b4-b4f8-40cf-a555-7401f8b9aa6f"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "9a4496f7-9e1e-4b4c-8df1-9e6b3791510c"
+	}
+]
+Groups = [
+]
+Nodes = [
+]

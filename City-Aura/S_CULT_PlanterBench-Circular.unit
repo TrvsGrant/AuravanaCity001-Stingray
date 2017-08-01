@@ -1,0 +1,43 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 4.00339406661949
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			0.461254239082336
+			3.97404265403748
+			0.739060521125793
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.00132261519320309
+			-0.0226993281394243
+			0.998048841953278
+			0.0581510663032532
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Ground = "content/models/City-Aura/M_Terrain-GrassLeaves_02"
+	Structure = "content/models/City-Aura/M_Tile-Marble-Cream-02"
+}
+renderables = {
+	"S_CULT_PlanterBench-Circular" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

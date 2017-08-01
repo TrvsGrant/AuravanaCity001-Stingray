@@ -1,0 +1,84 @@
+
+nodes = [
+	{
+		id = "83570c2b-a069-4ee8-984f-00d138f2c24e"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
+		variable_values = {
+			event = "CloseDoor"
+			unit = null
+		}
+	}
+	{
+		id = "e82573b6-736c-4dec-b561-fe39c512e2a5"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "83570c2b-a069-4ee8-984f-00d138f2c24e:0"
+					node = "83570c2b-a069-4ee8-984f-00d138f2c24e"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "Trigger_Close"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "04288983-a462-40b4-a066-c4063e34b8ed"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "d50e952b-43e5-4326-997f-282e837056f2:0"
+					node = "d50e952b-43e5-4326-997f-282e837056f2"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "Trigger_Open"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "d50e952b-43e5-4326-997f-282e837056f2"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
+		variable_values = {
+			event = "OpenDoor"
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

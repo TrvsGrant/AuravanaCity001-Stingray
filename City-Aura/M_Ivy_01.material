@@ -1,0 +1,271 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "f6750c21-5717-4511-a091-b53a24058da5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"a"
+			]
+			source = {
+				instance_id = "f6750c21-5717-4511-a091-b53a24058da5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "faf69027-2e63-43c7-9967-ce2255f6d0dd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "ba85e299-6450-4347-be6f-21ea3fad2312"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "ba85e299-6450-4347-be6f-21ea3fad2312"
+			}
+		}
+		{
+			destination = {
+				connector_id = "59fd1cf4-f736-470d-8510-1dd7c016639e"
+				instance_id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			}
+			select = [
+				"b"
+			]
+			source = {
+				instance_id = "ba85e299-6450-4347-be6f-21ea3fad2312"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			}
+			source = {
+				instance_id = "72b22edf-57c9-413c-8aec-deae06b29bbd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			}
+			source = {
+				instance_id = "b3ebbb49-3c63-45cf-88d6-cdbcdf29244a"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "f6750c21-5717-4511-a091-b53a24058da5"
+			}
+			source = {
+				instance_id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "faf69027-2e63-43c7-9967-ce2255f6d0dd"
+			}
+			source = {
+				instance_id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "ba85e299-6450-4347-be6f-21ea3fad2312"
+			}
+			source = {
+				instance_id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "b3ebbb49-3c63-45cf-88d6-cdbcdf29244a"
+			options = [
+			]
+			position = [-440 240]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "812b9ec8-f732-4624-98e7-10da71fbdc77"
+			options = [
+				"8df1b8f7-17c2-4ae4-8c4e-25517ec1df46"
+			]
+			position = [320 20]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "ba85e299-6450-4347-be6f-21ea3fad2312"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"e94e53e6-49b6-4194-a747-8f064a5932e0"
+			]
+			position = [60 220]
+			samplers = {
+				texture_map = {
+					display_name = "RMA Map"
+					slot_name = "rma_map"
+					ui = {
+						order = 30
+					}
+				}
+			}
+			title = "RMA Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "faf69027-2e63-43c7-9967-ce2255f6d0dd"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [60 100]
+			samplers = {
+				texture_map = {
+					display_name = "Normal Map"
+					slot_name = "normal_map"
+					ui = {
+						order = 20
+					}
+				}
+			}
+			title = "Normal Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "f6750c21-5717-4511-a091-b53a24058da5"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+			]
+			position = [60 -20]
+			samplers = {
+				texture_map = {
+					display_name = "Color Map"
+					slot_name = "color_map"
+					ui = {
+						order = 10
+					}
+				}
+			}
+			title = "Color Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "13688e66-e5df-4612-a5c4-b7f3e5b11f69"
+			options = [
+			]
+			position = [-180 180]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Scale"
+					name = "scale_8b940ad7"
+					type = "float"
+					ui = {
+						max = 10
+						min = 0.0001
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "72b22edf-57c9-413c-8aec-deae06b29bbd"
+			options = [
+			]
+			position = [-420 120]
+			samplers = {
+			}
+			title = "Scale"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	color_map = "content/models/City-Aura/T_Ivy_01_DA"
+	normal_map = "content/models/City-Aura/T_Ivy_01_N"
+	rma_map = "content/models/City-Aura/T_Ivy_01_RMA"
+}
+variables = {
+	scale_8b940ad7 = {
+		type = "scalar"
+		value = 1
+	}
+}

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_STRU_PRES_Meter1Angle45-01"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_STRU_PRES_Meter1Angle45-01"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

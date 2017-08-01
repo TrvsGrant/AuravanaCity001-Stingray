@@ -1,0 +1,39 @@
+
+_data_root_version = 1
+_id = "a80484bc-6de2-4d36-b798-4d3c454e6d80"
+_name = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "faf83452-3252-4723-b74e-d1d0f19594b2"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "9dcd9a12-99e1-44d6-88ce-3dcaed68d635"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "7ff3acae-5134-42d1-8bbb-4f4b32341974"
+		_name = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Tower"
+		lod_level = 5
+	}
+	{
+		_id = "e4941237-ac94-475b-886e-f7dcf56616ec"
+		_name = "POW_GEN_WIND-ELEC_TurbineBlade3-01_Blades"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "d4169cd6-0895-4219-832f-c3cf94d1f590"
+	ref_filename = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "abb42d21-5297-4fc1-ab65-f928b000be43"
+	ref_filename = null
+	ref_id = null
+}

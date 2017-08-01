@@ -1,0 +1,44 @@
+
+_data_root_version = 1
+_id = "aec76b99-fc89-459e-80d6-507033e9acb9"
+_name = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "a33ba18d-d1ff-4e13-9d83-745a25420b05"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "f2ab83b1-c499-4acc-8af8-4102a8dd17e9"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "027d3cab-3c62-411c-83c8-c31502b4a9f2"
+		_name = "S_STRU_PRES_Platform-Circular"
+		lod_level = 5
+	}
+	{
+		_id = "321cc633-e917-40e2-b29f-e87c71e6cb77"
+		_name = "S_PRES_GRID_InterCityNetwork"
+		lod_level = 5
+	}
+	{
+		_id = "615dc2b5-56cb-4e04-9fd0-b9a6b7331a32"
+		_name = "S_TriggerArea001"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "739b5fe0-ff7c-4dc4-b2de-77c3761690da"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "384cd033-e2cd-4649-bf01-9ef1f42ae73d"
+	ref_filename = null
+	ref_id = null
+}

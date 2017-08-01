@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "TriggerArea"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "TriggerArea"
+				template = "character_trigger"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

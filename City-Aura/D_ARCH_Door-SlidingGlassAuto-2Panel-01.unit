@@ -1,0 +1,76 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.94594106566028
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			0.576540946960449
+			1.44721579551697
+			2.58439016342163
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0288904458284378
+			-0.137774184346199
+			0.968967914581299
+			0.203186631202698
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 1
+		x = 105
+		y = -9
+	}
+}
+materials = {
+	Frame = "content/models/City-Aura/M_Concrete-Bare-02"
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	Sensor = "content/models/City-Aura/M_Metal-Aluminum"
+}
+renderables = {
+	Collision = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+	Frame = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Left = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Right = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

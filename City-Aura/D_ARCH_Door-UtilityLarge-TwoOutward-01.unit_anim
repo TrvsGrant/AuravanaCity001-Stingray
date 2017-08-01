@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "b019ebef-8da9-4d4a-a885-f43d87063563"
+_name = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01"
+anim_controller_ref = {
+	_id = "935c3d37-a3c0-4c90-bf02-3c7610b3b6b9"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "3b0d4798-b08b-4371-9660-dce74dec966a"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "ea8f0333-95aa-4147-9fc0-a0922028dbc6"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_ARCH_Door-UtilityLarge-TwoOutward-01"

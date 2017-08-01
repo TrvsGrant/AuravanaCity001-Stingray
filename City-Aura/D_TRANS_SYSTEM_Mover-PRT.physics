@@ -1,0 +1,33 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "D_TRANS_SYSTEM_Mover-PRT"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "D_TRANS_SYSTEM_Mover-PRT"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Doors"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Doors"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

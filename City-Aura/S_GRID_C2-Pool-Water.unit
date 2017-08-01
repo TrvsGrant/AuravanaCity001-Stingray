@@ -1,0 +1,15 @@
+
+materials = {
+	Surface = "content/models/City-Aura/M_Water-01"
+}
+renderables = {
+	"S_GRID_C2-PoolWater" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

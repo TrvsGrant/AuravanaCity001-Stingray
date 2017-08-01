@@ -1,0 +1,507 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "c5c47ea2-a3a0-4f25-989d-720fa2e4d8bd"
+			}
+			source = {
+				instance_id = "23b08629-b381-460c-8e4c-bb5239c04cbf"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "c5c47ea2-a3a0-4f25-989d-720fa2e4d8bd"
+			}
+			source = {
+				instance_id = "dc2d6d5d-21cb-4225-9e9e-d48fb06a0b29"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "9974a007-05c3-47f1-8109-d06cd1719d56"
+			}
+			source = {
+				instance_id = "e020628b-322b-45b9-928e-7aea4cd3102b"
+			}
+		}
+		{
+			destination = {
+				connector_id = "8f16b8fa-5e69-456d-9884-c046ea0640c4"
+				instance_id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			}
+			source = {
+				instance_id = "a75c28f7-a761-49cf-af2c-0003f89cbcfd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			}
+			source = {
+				instance_id = "cbaf9b88-ea93-4d20-aeaf-2dc8f2460f5f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "db6bac1d-3931-42bd-bd08-829bfbcbad47"
+				instance_id = "a02941eb-9061-4baf-b5b9-191f7f8769ca"
+			}
+			source = {
+				instance_id = "9950dca5-d1b5-48ba-95a0-dcca1c452388"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cff85d3c-d5da-4ffc-ad20-f3872809ac4f"
+				instance_id = "cbaf9b88-ea93-4d20-aeaf-2dc8f2460f5f"
+			}
+			source = {
+				instance_id = "a02941eb-9061-4baf-b5b9-191f7f8769ca"
+			}
+		}
+		{
+			destination = {
+				connector_id = "92053354-7c84-4129-bfbe-e803f004dac7"
+				instance_id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			}
+			source = {
+				instance_id = "81500811-d6ad-4531-a2ff-f9e0cba06653"
+			}
+		}
+		{
+			destination = {
+				connector_id = "791f1625-b2ff-4e4d-a371-c5a2f4d0b5c5"
+				instance_id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			}
+			source = {
+				instance_id = "9a96b45d-f9d5-47dd-9bfa-8e1789127301"
+			}
+		}
+		{
+			destination = {
+				connector_id = "e2c1b266-7bde-4203-8d95-ffc717607983"
+				instance_id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			}
+			source = {
+				instance_id = "4e91fe8c-281b-45bf-a8a9-052ce51ccd21"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			}
+			source = {
+				instance_id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			}
+			source = {
+				instance_id = "9974a007-05c3-47f1-8109-d06cd1719d56"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "9974a007-05c3-47f1-8109-d06cd1719d56"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			}
+		}
+		{
+			destination = {
+				connector_id = "d5e375bc-daa4-4464-8448-14bf08d97f0e"
+				instance_id = "cbaf9b88-ea93-4d20-aeaf-2dc8f2460f5f"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			}
+		}
+		{
+			destination = {
+				connector_id = "db6bac1d-3931-42bd-bd08-829bfbcbad47"
+				instance_id = "fc8b66ab-0f7d-4876-97eb-6cb611bf45be"
+			}
+			source = {
+				instance_id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cbe9909c-4280-4231-8eaf-962d400a331d"
+				instance_id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "fc8b66ab-0f7d-4876-97eb-6cb611bf45be"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			}
+			source = {
+				instance_id = "c5c47ea2-a3a0-4f25-989d-720fa2e4d8bd"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "aa23e053-3c53-40f7-a06f-23d5d5a65924"
+			id = "a02022fd-49f0-436f-ab2a-3dc9af5b8029"
+			instance_id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			value = [0]
+		}
+		{
+			connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+			id = "b1f7239e-c6f3-4deb-aac1-35d2118d1291"
+			instance_id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			value = [1]
+		}
+	]
+	groups = [
+		{
+			collapsed = false
+			groups = [
+			]
+			id = "e3f6616e-2dc4-4936-902a-6ec97376c34f"
+			nodes = [
+				"97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+				"9a96b45d-f9d5-47dd-9bfa-8e1789127301"
+				"81500811-d6ad-4531-a2ff-f9e0cba06653"
+				"fc8b66ab-0f7d-4876-97eb-6cb611bf45be"
+				"4e91fe8c-281b-45bf-a8a9-052ce51ccd21"
+			]
+			title = "Flecks Bump Mapping"
+		}
+		{
+			collapsed = false
+			groups = [
+			]
+			id = "1acb83f6-f0fc-486b-a670-1a5f27958f31"
+			nodes = [
+				"9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+				"2dd863cb-a3f9-41ba-ad9a-71709eb5acb4"
+			]
+			title = "Metallic Flecks"
+		}
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "dc2d6d5d-21cb-4225-9e9e-d48fb06a0b29"
+			options = [
+			]
+			position = [-1200 40]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "c5c47ea2-a3a0-4f25-989d-720fa2e4d8bd"
+			options = [
+			]
+			position = [-1000 20]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "UV Scale"
+					name = "uv_scale"
+					type = "float2"
+					ui = {
+						max = [99999999 99999999]
+						min = [-99999999 -99999999]
+						order = 61
+						step = [0.001 0.001]
+					}
+					value = [0 0]
+				}
+			}
+			id = "23b08629-b381-460c-8e4c-bb5239c04cbf"
+			options = [
+			]
+			position = [-1200 -40]
+			samplers = {
+			}
+			title = "UV Scale"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "97cdc491-0d9b-4f04-be2f-eb3ca4aa1c92"
+			options = [
+			]
+			position = [-87 349]
+			samplers = {
+			}
+			type = "core/shader_nodes/bump"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "9a96b45d-f9d5-47dd-9bfa-8e1789127301"
+			options = [
+			]
+			position = [-327 389]
+			samplers = {
+			}
+			type = "core/shader_nodes/world_space_normal"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "81500811-d6ad-4531-a2ff-f9e0cba06653"
+			options = [
+			]
+			position = [-327 329]
+			samplers = {
+			}
+			type = "core/shader_nodes/world_space_position"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "fc8b66ab-0f7d-4876-97eb-6cb611bf45be"
+			options = [
+			]
+			position = [-327 449]
+			samplers = {
+			}
+			type = "core/shader_nodes/invert"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Flecks Normal Power"
+					name = "FlecksNormalPower"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 2
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "4e91fe8c-281b-45bf-a8a9-052ce51ccd21"
+			options = [
+			]
+			position = [-327 529]
+			samplers = {
+			}
+			title = "Flecks Normal Power"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [240 0]
+			export = {
+			}
+			id = "9c8f4bcb-8f07-498d-a9e3-e7c15062b221"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-567 49]
+			samplers = {
+				texture_map = {
+					display_name = "Flecks"
+					slot_name = "flecks"
+					ui = {
+						order = 0
+					}
+				}
+			}
+			title = "Metallic_Flecks"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "fca02772-0183-47dd-a20f-5b279ace521c"
+			options = [
+				"2b136447-676e-4943-997b-04a28ae68497"
+				"845612a4-12ac-ad4a-34b1-a236534800a2"
+			]
+			position = [393 49]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Base Roughness"
+					name = "BaseRoughness"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 3
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "9950dca5-d1b5-48ba-95a0-dcca1c452388"
+			options = [
+			]
+			position = [-347 169]
+			samplers = {
+			}
+			title = "Base Roughness"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Base Color"
+					name = "base_color"
+					type = "float3"
+					ui = {
+						max = [1 1 1]
+						min = [0 0 0]
+						order = 1
+						step = [0.001 0.001 0.001]
+						ui_type = "Color"
+					}
+					value = [0 0 0]
+				}
+			}
+			id = "e020628b-322b-45b9-928e-7aea4cd3102b"
+			options = [
+			]
+			position = [-127 29]
+			samplers = {
+			}
+			title = "Base Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "9974a007-05c3-47f1-8109-d06cd1719d56"
+			options = [
+			]
+			position = [133 29]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Coat Roughness"
+					name = "coat_roughness"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 4
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "a75c28f7-a761-49cf-af2c-0003f89cbcfd"
+			options = [
+			]
+			position = [133 269]
+			samplers = {
+			}
+			title = "Coat Roughness"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "cbaf9b88-ea93-4d20-aeaf-2dc8f2460f5f"
+			options = [
+			]
+			position = [133 149]
+			samplers = {
+			}
+			type = "core/shader_nodes/subtract"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "a02941eb-9061-4baf-b5b9-191f7f8769ca"
+			options = [
+			]
+			position = [-127 169]
+			samplers = {
+			}
+			type = "core/shader_nodes/invert"
+		}
+	]
+	version = 3
+}
+textures = {
+	flecks = "autodesk-materials/clear-coat/flecks_diffuse"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [0 0.1882 0.6]
+	}
+	BaseRoughness = {
+		type = "scalar"
+		value = 0.7849
+	}
+	coat_roughness = {
+		type = "scalar"
+		value = 0.23
+	}
+	FlecksNormalPower = {
+		type = "scalar"
+		value = 0.0001
+	}
+	uv_scale = {
+		type = "vector2"
+		value = [1 1]
+	}
+}

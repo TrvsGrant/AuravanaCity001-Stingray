@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_CULTIV_Plant-HedgeOvoid"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_CULTIV_Plant-HedgeOvoid"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

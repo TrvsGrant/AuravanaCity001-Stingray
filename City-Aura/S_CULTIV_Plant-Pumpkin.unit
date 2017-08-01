@@ -1,0 +1,43 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 6.09654097244253
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			4.79598426818848
+			2.71667003631592
+			3.2889289855957
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.12632517516613
+			-0.210170358419418
+			0.830923855304718
+			0.499435603618622
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-Pumpkin Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-Pumpkin"
+	"M_CULTIV_Plant-Pumpkin Slot #2" = "content/models/City-Aura/M_CULTIV_Plant-Pumpkin"
+}
+renderables = {
+	"S_CULTIV_Plant-Pumpkin" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

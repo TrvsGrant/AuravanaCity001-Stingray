@@ -1,0 +1,16 @@
+
+common = {
+	input = {
+		filename = "content/models/City-Aura/TERRAIN_4096_hmap"
+		format = "R16UNORM"
+		height = 4096
+		type = "IMAGE2D"
+		width = 4096
+	}
+	output = {
+		format = "R16UNORM"
+		mipmap_filter = "box"
+		mipmap_filter_wrap_mode = "clamp"
+		srgb = false
+	}
+}

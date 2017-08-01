@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.90296431474041
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			0.625302910804749
+			1.26358318328857
+			3.82166576385498
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0848177447915077
+			-0.373677909374237
+			0.900760173797607
+			0.204455256462097
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"S_CULTIV_Plant-Tree-PineSnow-01" = "content/models/City-Aura/M_CULTIV_Plant-Tree-PineSnow-01"
+}
+renderables = {
+	"S_CULTIV_Plant-Tree-PineSnow-01-Large" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

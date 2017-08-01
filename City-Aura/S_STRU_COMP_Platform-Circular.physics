@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_STRU_COMP_Platform-Circular"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_STRU_COMP_Platform-Circular"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

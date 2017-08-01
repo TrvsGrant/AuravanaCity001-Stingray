@@ -1,0 +1,9 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard_rma"
+textures = {
+	color_map = "content/models/City-Aura/T_Tile-MultiColor-PatternA-01_D"
+	normal_map = "content/models/City-Aura/T_Tile-MultiColor-PatternA-01_N"
+	rma_map = "content/models/City-Aura/T_Tile-MultiColor-PatternA-01_RMA"
+}
+variables = {
+}

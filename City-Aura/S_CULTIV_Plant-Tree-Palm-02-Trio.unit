@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 28.1007025040107
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			16.0150527954102
+			15.8375864028931
+			22.7007751464844
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115916900336742
+			-0.279848128557205
+			0.880476236343384
+			0.364705175161362
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"S_CULTIV_Plant-Tree-Palm-02" = "content/models/City-Aura/M_CULTIV_Plant-Tree-Palm-02"
+}
+renderables = {
+	"S_CULTIV_Plant-Tree-Palm-02-Trio" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

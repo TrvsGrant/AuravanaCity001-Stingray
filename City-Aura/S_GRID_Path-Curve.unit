@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 25.5607312263969
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			27.5062408447266
+			-1.07300686836243
+			7.37775135040283
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.0778169706463814
+			0.0893170088529587
+			-0.748669147491455
+			-0.652274012565613
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Surface = "content/models/City-Aura/M_Tile-WhiteCross_01a"
+}
+renderables = {
+	"S_GRID_Path-Curve" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

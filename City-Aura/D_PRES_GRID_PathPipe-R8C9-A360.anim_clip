@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "551a642d-c3f0-45dd-b0a8-292307e19f70"
+_name = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "74ad7281-a6e2-4aa6-acd7-c0d7e330adc8"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "d6f6cf8c-c025-42e7-b3ae-6950bcdbe286"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "6852baa2-809e-40bb-8b4f-2f8fcf761b92"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "020fe391-fe87-4396-8f99-720238e77ada"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "59ab8459-be33-4794-b4e2-e0e93bbea40d"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "ef4bdb9c-4477-482a-ba61-5bbd671ea5ed"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "GridAnimation"
+trimming_end = 23.3333339691162
+trimming_start = 0

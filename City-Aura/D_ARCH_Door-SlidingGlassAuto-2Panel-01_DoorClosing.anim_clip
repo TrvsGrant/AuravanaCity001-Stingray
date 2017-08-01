@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "15240357-738e-407b-bf77-087bc4901505"
+_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorClosing"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "18c2cea0-a18c-4400-b584-8ce8201ed1d4"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "3a414a9e-6d96-40fc-8742-962eee32ffba"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c34ed52a-d9fa-408d-978a-1716ff15d0dc"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "585614f4-f284-4142-b4d6-2fe28bbc6142"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "53b9b28d-2585-4a8f-a661-bb038e1c3c85"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "d8dfb95e-b500-4c02-9ac6-d67146610f0a"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "DoorClosing"
+trimming_end = 1.66666662693024
+trimming_start = 0

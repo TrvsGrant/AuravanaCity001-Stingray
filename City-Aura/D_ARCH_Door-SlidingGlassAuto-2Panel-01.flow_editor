@@ -1,0 +1,167 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "4e5ee51a-819b-44ac-ace3-a697a1a38536"
+		Id = "522e4757-3e25-47f7-bf22-2e9c3200d1db"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "1ca77d6d-eaaa-4af0-89d8-777ee8d116be"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Leave"
+		FromNode = "4e5ee51a-819b-44ac-ace3-a697a1a38536"
+		Id = "9c18030b-9928-4001-9185-8df8e846d921"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "970596fa-36fd-4b80-9762-cee3a62803c1"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Category = "Animation"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "animation_event"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "1ca77d6d-eaaa-4af0-89d8-777ee8d116be"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = true
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "OpenDoor"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 480
+			Y = 340
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Send Animation Controller Event"
+		Width = 160
+	}
+	{
+		Actor = {
+			Value = "Collision"
+		}
+		Category = "Event"
+		Class = "Stingray.Flow.PhysicsTrigger"
+		Enter = {
+		}
+		Id = "4e5ee51a-819b-44ac-ace3-a697a1a38536"
+		Leave = {
+		}
+		NodeLocation = {
+			X = 180
+			Y = 320
+		}
+		Title = "Physics Trigger"
+		TouchedActor = {
+		}
+		TouchingActor = {
+		}
+		TouchingUnit = {
+		}
+		Width = 160
+	}
+	{
+		Category = "Animation"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "animation_event"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "970596fa-36fd-4b80-9762-cee3a62803c1"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = true
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "CloseDoor"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 480
+			Y = 480
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Send Animation Controller Event"
+		Width = 160
+	}
+]

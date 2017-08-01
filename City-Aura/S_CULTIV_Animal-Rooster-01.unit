@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 0.86416047085751
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-0.746134638786316
+			0.368496179580688
+			0.607131958007813
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.111121125519276
+			-0.185251712799072
+			0.83730560541153
+			-0.502248346805573
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	default = "content/models/City-Aura/M_CULTIV_Animal-Rooster-01"
+}
+renderables = {
+	"S_CULTIV_Animal-Rooster-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

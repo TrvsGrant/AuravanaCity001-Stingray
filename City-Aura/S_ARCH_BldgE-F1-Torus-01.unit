@@ -1,0 +1,44 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 25.3191400547478
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.4245857000351
+			23.9555778503418
+			10.6715126037598
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.00479663116857409
+			-0.161457732319832
+			0.986432790756226
+			0.0293046236038208
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	Solar = "content/models/City-Aura/M_Panel-SolarBlueGliter_a"
+	Structure = "content/models/City-Aura/M_Paint-Plaster-White-04"
+}
+renderables = {
+	"S_ARCH_BldgE-F1-Torus-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

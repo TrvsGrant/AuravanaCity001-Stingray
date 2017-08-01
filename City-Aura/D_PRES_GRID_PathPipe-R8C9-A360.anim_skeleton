@@ -1,0 +1,54 @@
+
+_data_root_version = 1
+_id = "5dea5da7-e0b6-4446-8bd1-d96808bfb692"
+_name = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "d07f8637-80a0-4004-b09a-19e4f1adfcd8"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "9365614d-4fb9-49b1-91c1-a12df481ded7"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "f4dea848-91ee-4759-8866-075a83a1a421"
+		_name = "Display_Platform"
+		lod_level = 5
+	}
+	{
+		_id = "7181ce8a-f1ae-4ceb-8d6d-c368a6a8d92e"
+		_name = "Text"
+		lod_level = 5
+	}
+	{
+		_id = "58601ce3-d483-4fe0-9988-4226b2ff4ab0"
+		_name = "Path-R8C9-A360_Mini"
+		lod_level = 5
+	}
+	{
+		_id = "90bfea23-b670-4ee9-bfc8-fa78e91ebbc4"
+		_name = "Pipe-OneMeterTubes_Mini"
+		lod_level = 5
+	}
+	{
+		_id = "06a7fe9f-f3e3-481f-9c1d-a36100212922"
+		_name = "TriggerArea"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "59c6d9b5-9ce2-41fe-9767-c915058293b9"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "65384e05-cf1f-49db-8668-4cfd821728a9"
+	ref_filename = null
+	ref_id = null
+}

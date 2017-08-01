@@ -1,0 +1,78 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "Frame"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Frame"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Left"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Left"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "keyframed"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Right"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Right"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "keyframed"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Trigger_Open"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Trigger_Open"
+				template = "trigger"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "Trigger_Close"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Trigger_Close"
+				template = "trigger"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

@@ -1,0 +1,82 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Enter"
+		FromNode = "c6e7a00f-52f6-4e93-8cfd-a5fcf586872f"
+		Id = "0a2d10b3-af72-404e-b254-e1483d207fbc"
+		Priority = 0
+		ToItem = "Play"
+		ToNode = "e0e9c399-dd22-46df-be58-ba85e2e5d2f9"
+	}
+]
+Groups = [
+]
+Nodes = [
+	{
+		Animation = {
+			Value = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"
+		}
+		Blendtime = {
+			Value = 0.5
+		}
+		Category = "Animation"
+		Class = "Stingray.Flow.GenericAnimation"
+		Id = "e0e9c399-dd22-46df-be58-ba85e2e5d2f9"
+		Loop = {
+			Value = false
+		}
+		NodeLocation = {
+			X = 480
+			Y = 240
+		}
+		Pause = {
+		}
+		Paused = {
+		}
+		Play = {
+		}
+		Played = {
+		}
+		Resume = {
+		}
+		Resumed = {
+		}
+		Speed = {
+			Value = 1
+		}
+		Stop = {
+		}
+		Stopped = {
+		}
+		Title = "Play Animation Clip"
+		Unit = {
+			UseMyUnit = true
+		}
+		Width = 160
+	}
+	{
+		Actor = {
+			Value = "TriggerArea"
+		}
+		Category = "Event"
+		Class = "Stingray.Flow.PhysicsTrigger"
+		Enter = {
+		}
+		Id = "c6e7a00f-52f6-4e93-8cfd-a5fcf586872f"
+		Leave = {
+		}
+		NodeLocation = {
+			X = 180
+			Y = 180
+		}
+		Title = "Physics Trigger"
+		TouchedActor = {
+		}
+		TouchingActor = {
+		}
+		TouchingUnit = {
+		}
+		Width = 160
+	}
+]

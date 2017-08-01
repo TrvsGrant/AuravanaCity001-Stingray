@@ -1,0 +1,16 @@
+
+actors = [
+	{
+		name = "landscape"
+		node = "terrain"
+		shapes = [
+			{
+				material = "default"
+				shape = "terrain"
+				template = "default"
+				type = "height_field"
+			}
+		]
+		template = "static"
+	}
+]

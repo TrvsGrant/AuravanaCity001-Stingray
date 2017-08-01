@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_TRANS_MOVER_AutoUtility-4Wheel"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_TRANS_MOVER_AutoUtility-4Wheel"
+				template = "sweeper"
+				type = "box"
+			}
+		]
+		template = "dynamic"
+	}
+]

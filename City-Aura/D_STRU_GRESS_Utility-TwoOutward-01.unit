@@ -1,0 +1,90 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 5.52020063157171
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			4.41018724441528
+			4.9719181060791
+			1.97949695587158
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0328384377062321
+			-0.127700060606003
+			0.960034847259521
+			0.24687534570694
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 1.2
+		x = 26.5280000000013
+		y = 804.70304
+	}
+}
+materials = {
+	Doors = "content/models/props/bat_aluminum_material"
+	Frame = "content/models/City-Aura/M_Concrete-Bare_02"
+	Panel_Bottom = "autodesk-materials/metal/gold/m_gold_standard"
+	Panel_Top = "autodesk-materials/metal/copper/copper_standard"
+}
+renderables = {
+	Door_Frame = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Door_Left = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Door_Right = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Trigger_Close = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+	Trigger_Open = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+}
+visibility_groups = {
+	"Simple Physics Trigger" = [
+	]
+}

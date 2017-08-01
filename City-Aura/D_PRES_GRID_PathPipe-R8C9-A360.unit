@@ -1,0 +1,81 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.83164001748579
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			2.68765354156494
+			2.29686307907104
+			2.74451112747192
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.0824042558670044
+			-0.17887556552887
+			0.890467762947083
+			0.410219848155975
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Paths = "content/models/City-Aura/M_Illumination-GreenAlgae"
+	Pipes = "content/models/City-Aura/M_Illumination-Blue"
+	Platform = "content/models/City-Aura/M_Concrete-Bare-02"
+	Text = "content/models/City-Aura/M_Illumination-Red"
+}
+renderables = {
+	Display_Platform = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Path-R8C9-A360_Mini" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Pipe-OneMeterTubes_Mini" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Text = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	TriggerArea = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+}

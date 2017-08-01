@@ -1,0 +1,72 @@
+
+nodes = [
+	{
+		id = "1ca77d6d-eaaa-4af0-89d8-777ee8d116be"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
+		variable_values = {
+			event = "OpenDoor"
+			unit = null
+		}
+	}
+	{
+		id = "4e5ee51a-819b-44ac-ace3-a697a1a38536"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "1ca77d6d-eaaa-4af0-89d8-777ee8d116be:0"
+					node = "1ca77d6d-eaaa-4af0-89d8-777ee8d116be"
+				}
+			]
+			leave = [
+				{
+					event = 0
+					id = "970596fa-36fd-4b80-9762-cee3a62803c1:0"
+					node = "970596fa-36fd-4b80-9762-cee3a62803c1"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "Collision"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "970596fa-36fd-4b80-9762-cee3a62803c1"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
+		variable_values = {
+			event = "CloseDoor"
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

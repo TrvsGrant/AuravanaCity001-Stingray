@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 15.7295241910606
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [10.1416807174683 6.69893789291382 9.91080570220947]
+		projection_type = "perspective"
+		rotation = [-0.159556359052658 -0.296846508979797 0.829295456409454 0.445749908685684]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Structure = "content/models/City-Aura/M_Tile-Marble-Gray-01a"
+}
+renderables = {
+	"S_STRU_COMP_Platform-Circular" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

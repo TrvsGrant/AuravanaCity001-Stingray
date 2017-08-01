@@ -1,0 +1,45 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 222.937350806585
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-122.019729614258
+			-142.539581298828
+			137.639862060547
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.263940215110779
+			-0.0975425988435745
+			0.332641631364822
+			-0.900094747543335
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Drain = "content/models/City-Aura/M_Glass-Transparent"
+	PoolArea = "autodesk-materials/metal/gold/m_gold_standard"
+	Slide = "content/models/City-Aura/M_Concrete-White-04"
+	Structure = "content/models/City-Aura/M_Brick-ConcreteTile-01_a"
+}
+renderables = {
+	"S_ARCH_BldgE-F5-8PetalCircle-00G" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

@@ -1,0 +1,20 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/models/City-Aura/T_RECREAT_Court-Tennis-01_D"
+	normal_map = "content/models/City-Aura/T_RECREAT_Court-Tennis-01_N"
+}
+variables = {
+	roughness = {
+		type = "scalar"
+		value = 1
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+	use_normal_map = {
+		type = "scalar"
+		value = 1
+	}
+}

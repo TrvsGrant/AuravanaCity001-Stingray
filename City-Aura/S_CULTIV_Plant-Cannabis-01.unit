@@ -1,0 +1,28 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.43500391961681
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [1.86646771430969 1.52522873878479 3.44309759140015]
+		projection_type = "perspective"
+		rotation = [-0.162645384669304 -0.353055655956268 0.8368279337883 0.385509073734283]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-Cannabis-01 Slot #1" = "content/models/City-Aura/M_CULTIV_Plant-Cannabis-01"
+}
+renderables = {
+	"S_CULTIV_Plant-Cannabis-01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

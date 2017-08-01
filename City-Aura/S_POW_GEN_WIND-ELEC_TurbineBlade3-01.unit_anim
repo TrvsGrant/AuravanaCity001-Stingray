@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "0894c570-5821-4149-8cab-f4232ab7e568"
+_name = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01"
+anim_controller_ref = {
+	_id = "3074d8ec-ce47-45d3-99bd-4ac8cc21bcd2"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "0ab1a484-2b32-44c0-acf5-fb18cb31f743"
+	ref_filename = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "90648fbb-bc2d-4575-84d6-c57469b4a231"
+	ref_filename = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/S_POW_GEN_WIND-ELEC_TurbineBlade3-01"

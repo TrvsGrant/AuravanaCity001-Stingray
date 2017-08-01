@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "7c029fdc-9154-4198-864c-3042e5c9d553"
+_name = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT"
+anim_controller_ref = {
+	_id = "6f66f86c-7d0b-496d-bb3e-69d0a05c9201"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "0e1fa667-136b-4156-95a6-577624767278"
+	ref_filename = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "f188046b-ac3c-442a-8fec-31c4e23c9463"
+	ref_filename = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT"

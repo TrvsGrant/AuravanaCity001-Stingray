@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.35499192237532
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.93738174438477
+			1.93988382816315
+			3.19201135635376
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115916900336742
+			-0.279848128557205
+			0.880476236343384
+			0.364705175161362
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_STRU_COMPR_Pillar-Column Slot #1" = "content/models/City-Aura/M_STRU_COMPR_Pillar-Column"
+}
+renderables = {
+	"S_STRU_COMPR_Pillar-Column" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

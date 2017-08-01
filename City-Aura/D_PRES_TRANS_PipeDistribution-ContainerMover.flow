@@ -1,0 +1,59 @@
+
+nodes = [
+	{
+		id = "e4a6df38-0846-405f-a4ef-27555a32e821"
+		out_events = {
+			enter = [
+				{
+					event = 0
+					id = "2305bd8c-4d06-48af-9a7b-8475b5eae8b4:0"
+					node = "2305bd8c-4d06-48af-9a7b-8475b5eae8b4"
+				}
+			]
+		}
+		type = "physics_trigger"
+		variable_values = {
+			actor = "TriggerArea"
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		id = "2305bd8c-4d06-48af-9a7b-8475b5eae8b4"
+		in_variables = {
+			animation = {
+				type = "id"
+			}
+			blendtime = {
+				type = "float"
+			}
+			loop = {
+				type = "bool"
+			}
+			speed = {
+				type = "float"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "generic_animation"
+		variable_values = {
+			animation = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"
+			blendtime = 0.5
+			loop = false
+			speed = 1
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

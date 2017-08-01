@@ -1,0 +1,9 @@
+
+parent_material = "content/models/City-Aura/0-Template_M_RMA-ScaleMax200"
+textures = {
+	color_map = "content/models/City-Aura/T_TRANS_MOVER_Bicycle-01_D"
+	normal_map = "content/models/City-Aura/T_TRANS_MOVER_Bicycle-01_N"
+	rma = "content/models/City-Aura/T_TRANS_MOVER_Bicycle-01_RMA"
+}
+variables = {
+}

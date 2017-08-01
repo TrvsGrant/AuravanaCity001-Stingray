@@ -1,0 +1,30 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 56.4934036922624
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [54.2060279846191 20.6723403930664 19.3031044006348]
+		projection_type = "perspective"
+		rotation = [0.0667194947600365 0.0811363160610199 -0.768117845058441 -0.631633162498474]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	"S_ARCH-BldgEO-F3-Hexa01 Slot #3" = "content/models/City-Aura/M_Concrete-White-04"
+	Structure = "content/models/City-Aura/M_Tile-Marble-Cream-02"
+}
+renderables = {
+	"S_ARCH-BldgEO-F3-Hexa01" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

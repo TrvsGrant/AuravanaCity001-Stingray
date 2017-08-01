@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_MINER_Rock-07"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_MINER_Rock-07"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

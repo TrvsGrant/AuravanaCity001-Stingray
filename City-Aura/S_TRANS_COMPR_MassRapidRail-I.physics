@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_TRANS_COMPR_MassRapidRail-I"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_TRANS_COMPR_MassRapidRail-I"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

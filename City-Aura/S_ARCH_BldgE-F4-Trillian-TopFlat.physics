@@ -1,0 +1,33 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F4-Trillian-TopFlat"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F4-Trillian-TopFlat"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F4-Trillian-TopFlat-Floor1"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

@@ -1,0 +1,9 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard_rma_opacity"
+textures = {
+	color_map = "content/models/City-Aura/T_CULTIV_Plant-HedgeOvoid_DA"
+	normal_map = "content/models/City-Aura/T_CULTIV_Plant-HedgeOvoid_DDN"
+	rma_map = "content/models/City-Aura/T_CULTIV_Plant-HedgeOvoid_S"
+}
+variables = {
+}

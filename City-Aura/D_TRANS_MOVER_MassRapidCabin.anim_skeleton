@@ -1,0 +1,164 @@
+
+_data_root_version = 1
+_id = "a6bfc741-ad76-4d4d-9f73-288e1ce4881d"
+_name = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "2898c2ee-ee46-49b6-bbc0-9cedc126c7e4"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "e83af97c-9c94-4605-bf51-72e752416fa4"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "0b608b42-bc20-496d-9977-036ca4edcf8c"
+		_name = "S_TRANS_MOVER_MassRapidCabin-Front"
+		lod_level = 5
+	}
+	{
+		_id = "9639b967-5fd3-41a6-9ed8-24d3277fabc7"
+		_name = "Door_FrontRight-A001"
+		lod_level = 5
+	}
+	{
+		_id = "eb0b9fbb-eead-43aa-a4f3-093a52ff884d"
+		_name = "Door_FrontRight-B001"
+		lod_level = 5
+	}
+	{
+		_id = "f6d9c6d4-6966-4fc7-9a98-fd30e9c0252e"
+		_name = "Door_FrontLeft-B001"
+		lod_level = 5
+	}
+	{
+		_id = "25aea438-15a1-4176-ada2-7cb17b3e19f2"
+		_name = "Door_FrontLeft-A001"
+		lod_level = 5
+	}
+	{
+		_id = "125039c9-ee99-4ad4-8f9b-6eac18cb51f4"
+		_name = "Door_BackRight-B001"
+		lod_level = 5
+	}
+	{
+		_id = "cbe5ba6e-244b-4ad3-a60a-7c40ef715d72"
+		_name = "Door_BackRight-A001"
+		lod_level = 5
+	}
+	{
+		_id = "62aaa3a7-a970-40b3-a9be-9ad6e5aab512"
+		_name = "Door_BackLeft-B001"
+		lod_level = 5
+	}
+	{
+		_id = "3c61cf60-80de-4699-ae19-a88b091417f7"
+		_name = "Door_BackLeft-A001"
+		lod_level = 5
+	}
+	{
+		_id = "cfb0ab0a-cfd3-4a5b-9b33-f5577f8f5b67"
+		_name = "S_TRANS_MOVER_MassRapidCabin-Middle"
+		lod_level = 5
+	}
+	{
+		_id = "0cb4f508-cbba-479b-afba-b78b043e6aa9"
+		_name = "S_TRANS_MOVER_MassRapidCabin-End"
+		lod_level = 5
+	}
+	{
+		_id = "c69bb256-f46e-4ba9-91c3-5d70aae2f8d8"
+		_name = "Door_BackLeft-A"
+		lod_level = 5
+	}
+	{
+		_id = "5ecd6ab9-214c-4da7-b284-2e7b17689d67"
+		_name = "Door_BackLeft-B"
+		lod_level = 5
+	}
+	{
+		_id = "91b166f8-24b5-4206-b06d-8a6b308429aa"
+		_name = "Door_BackRight-A"
+		lod_level = 5
+	}
+	{
+		_id = "46ed3035-9a0c-47fd-90a1-e3dbc8f7e214"
+		_name = "Door_BackRight-B"
+		lod_level = 5
+	}
+	{
+		_id = "6343e8d0-1e90-4063-b36f-bbeb774a0fd7"
+		_name = "Door_FrontLeft-A"
+		lod_level = 5
+	}
+	{
+		_id = "1cdd00c9-a1d2-4be8-8a96-950735fe7894"
+		_name = "Door_FrontLeft-B"
+		lod_level = 5
+	}
+	{
+		_id = "fcbf9aea-69f1-4f9e-a8bb-f92a4c38de4a"
+		_name = "Door_FrontRight-A"
+		lod_level = 5
+	}
+	{
+		_id = "1d23ede6-65dc-45ce-88db-27727f5de4ec"
+		_name = "Door_FrontRight-B"
+		lod_level = 5
+	}
+	{
+		_id = "124fa19f-ce7e-4782-89f9-09c4edcd3f3d"
+		_name = "Door_FrontRight-A002"
+		lod_level = 5
+	}
+	{
+		_id = "1e9bf0a4-7a93-4939-ba03-053b21497e40"
+		_name = "Door_FrontRight-B002"
+		lod_level = 5
+	}
+	{
+		_id = "05f3d080-0c13-4ece-925c-4ded07e15a5b"
+		_name = "Door_FrontLeft-B002"
+		lod_level = 5
+	}
+	{
+		_id = "16d4e2fc-8a50-48d5-b37a-b1d90b4b88f4"
+		_name = "Door_FrontLeft-A002"
+		lod_level = 5
+	}
+	{
+		_id = "a159b076-169c-4495-8300-21254c9459ba"
+		_name = "Door_BackRight-B002"
+		lod_level = 5
+	}
+	{
+		_id = "dad588e4-ad83-40d7-b04b-69d40aea4a40"
+		_name = "Door_BackRight-A002"
+		lod_level = 5
+	}
+	{
+		_id = "ca8ca92e-55bf-4f40-b2b9-b50c1cedc8a0"
+		_name = "Door_BackLeft-A002"
+		lod_level = 5
+	}
+	{
+		_id = "d617ef5c-204d-4697-be3b-8300e3aee62b"
+		_name = "Door_BackLeft-B002"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "89ce7b76-c0c9-4d1b-84f6-a851af9fe095"
+	ref_filename = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "d32d610b-8b58-401e-bc9a-1d5da505ac8c"
+	ref_filename = null
+	ref_id = null
+}

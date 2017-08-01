@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "446155f3-640c-4e6b-a952-552637dccff4"
+_name = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork"
+anim_controller_ref = {
+	_id = "2a630e72-0214-46c1-9fa1-70766c1fc578"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "c7cb1cc8-2903-4945-a48e-be61ac585c84"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "0d0ab3b8-8483-4c72-9e63-a5c37407b1f2"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_PRES_GRID_InterCityNetwork"

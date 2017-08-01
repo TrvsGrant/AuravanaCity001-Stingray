@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_CULTIV_Plant-Tree-Palm-02-Straight"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_CULTIV_Plant-Tree-Palm-02-Straight"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

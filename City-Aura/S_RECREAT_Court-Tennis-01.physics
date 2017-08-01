@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_RECREAT_Court-Tennis-01"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_RECREAT_Court-Tennis-01"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

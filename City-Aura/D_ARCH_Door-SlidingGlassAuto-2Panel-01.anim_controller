@@ -1,0 +1,419 @@
+
+_data_root_version = 8
+_id = "4cd36970-7512-4376-b7d0-0b15a6ab1cfc"
+_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01"
+anim_event_root_folder_name = "Events"
+anim_skeleton_ref = {
+	_id = "cef929b3-46f4-4374-af41-dcc01bf26db5"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01"
+	events = {
+		"Anim End" = {
+		}
+		CloseDoor = {
+		}
+		OpenDoor = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Empty"
+			states = [
+				{
+					animations = [
+						"content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorOpening"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorOpening"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "CloseDoor"
+							is_switch = false
+							mode = "wait"
+							on_beat = ""
+							to = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorClosing"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorClosing"
+					]
+					exit_event = "Anim End"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorClosing"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "OpenDoor"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorOpening"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					name = "Empty"
+					state_type = "empty"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "OpenDoor"
+							is_switch = false
+							mode = "direct"
+							on_beat = ""
+							to = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorOpening"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+constraint_root_folder_name = "Constraints"
+constraint_target_root_folder_name = "Constraint Targets"
+constraint_targets = {
+	_id = "692526e3-720d-4705-83a7-e36930b1f1c7"
+	_name = "Constraint Targets"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+constraints = {
+	_id = "557d9b4c-d89a-42f2-843c-52aa75b05548"
+	_name = "Constraints"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+events = {
+	_id = "3a348c7f-67dc-4f47-808b-788c815c4c39"
+	_name = "Events"
+	data_list = [
+		{
+			_id = "307752e9-0f5d-44f2-b453-8de9eab25f04"
+			_name = "Anim End"
+		}
+		{
+			_id = "c03b002b-f407-4b2f-bd6c-a09f7e195cb6"
+			_name = "OpenDoor"
+		}
+		{
+			_id = "45e06d7b-7dcd-46aa-a8ad-5bc8de145727"
+			_name = "CloseDoor"
+		}
+	]
+	sub_folders = [
+	]
+}
+layers = [
+	{
+		_id = "3f2d241a-2727-43bc-9d1f-fb0764bd3cc5"
+		_name = "Base"
+		anim_blend_set_ref = {
+			_id = "5b54e94f-d91f-479d-8564-d4bbfcf7cdc7"
+			ref_filename = null
+			ref_id = null
+		}
+		blend_states = [
+		]
+		constraints = [
+		]
+		default_state_ref = {
+			_id = "fe96d38e-d9a7-4b8f-a96c-8a6746265382"
+			ref_filename = null
+			ref_id = "610b2f05-d2bb-4be3-95c4-607ce58db3a7"
+		}
+		empty_states = [
+			{
+				_id = "610b2f05-d2bb-4be3-95c4-607ce58db3a7"
+				_name = "Empty"
+				anim_blend_set_ref = {
+					_id = "c42330ab-64de-4e5d-9b75-1ee34b007144"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "1b72b93a-1a95-4a08-b768-c12b900d701d"
+					ref_filename = null
+					ref_id = "307752e9-0f5d-44f2-b453-8de9eab25f04"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "6c98459e-276f-4a2d-9642-6db4a2ce7bb3"
+						actual_target_ref = {
+							_id = "7fce1c44-2565-4623-8317-b7e648e14cd8"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "e29fad3c-2b0e-4496-97d0-8267d06c2bcd"
+							ref_filename = null
+							ref_id = "c03b002b-f407-4b2f-bd6c-a09f7e195cb6"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "6a43db3b-05f4-4cf8-85dd-8085bc79b685"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "5481ba31-77d5-46ad-bb69-7795c75cb217"
+							ref_filename = null
+							ref_id = "dce41036-9a9b-44b1-a08d-8afd0b36bdd8"
+						}
+					}
+				]
+				weights = [
+				]
+				width = 150
+				x = 200
+				y = -180
+			}
+		]
+		group_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "dce41036-9a9b-44b1-a08d-8afd0b36bdd8"
+				_name = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorOpening"
+				anim_blend_set_ref = {
+					_id = "80515c5f-3d5d-4de1-9946-bdb38c9321b1"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "261ed619-a429-4334-8e05-512cb5e3b47b"
+						ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorOpening.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "439f84b2-bd3c-4784-8bc5-7e6aeae477d1"
+					ref_filename = null
+					ref_id = "307752e9-0f5d-44f2-b453-8de9eab25f04"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "60d12cf2-7680-421f-be0a-23cf6e5ff1a2"
+						actual_target_ref = {
+							_id = "899b3937-6d0a-4199-9e16-d1a5ca6304cc"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "5332817e-4f58-41ba-84d1-2b203aeb03e2"
+							ref_filename = null
+							ref_id = "45e06d7b-7dcd-46aa-a8ad-5bc8de145727"
+						}
+						has_nested_from = false
+						mode = "wait"
+						nested_from_ref = {
+							_id = "000523fe-072d-475d-a091-c327167ffb4a"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "609a37e3-00d6-4ba5-984b-0943f8f8c5f9"
+							ref_filename = null
+							ref_id = "041336e0-8271-45d4-982f-55cfaa2f18dd"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 380
+				x = -160
+				y = 100
+			}
+			{
+				_id = "041336e0-8271-45d4-982f-55cfaa2f18dd"
+				_name = "D_ARCH_Door_SlidingGlassAuto_2Panel_01_DoorClosing"
+				anim_blend_set_ref = {
+					_id = "a285040f-cb65-42db-b939-7a3979103dbd"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "7e3fed7b-2495-4982-b915-a7e72ad826a2"
+						ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01_DoorClosing.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "aeb7ad97-6c14-4d61-95ad-f15fa5ed53dd"
+					ref_filename = null
+					ref_id = "307752e9-0f5d-44f2-b453-8de9eab25f04"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transition_switch_entries = [
+				]
+				transition_switch_exits = [
+				]
+				transitions = [
+					{
+						_id = "a70598cf-19d5-43a6-badc-ac2f480c6722"
+						actual_target_ref = {
+							_id = "abd489e4-ecf4-4cea-b47c-fea666928340"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "0ba32807-a1ed-4feb-98ab-44a47b68537d"
+							ref_filename = null
+							ref_id = "c03b002b-f407-4b2f-bd6c-a09f7e195cb6"
+						}
+						has_nested_from = false
+						mode = "direct"
+						nested_from_ref = {
+							_id = "d9621648-ca70-46bd-895e-2dce12d15c76"
+							ref_filename = null
+							ref_id = null
+						}
+						on_beat = ""
+						to_state_ref = {
+							_id = "b18c2305-f285-46b8-b743-fd6e751e9415"
+							ref_filename = null
+							ref_id = "dce41036-9a9b-44b1-a08d-8afd0b36bdd8"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 440
+				x = 180
+				y = 260
+			}
+		]
+		time_states = [
+		]
+		transition_switches = [
+		]
+	}
+]
+ragdoll_root_folder_name = "Ragdolls"
+ragdolls = {
+	_id = "61adab79-426c-4518-8ee1-a97a34239831"
+	_name = "Ragdolls"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+setup = {
+	_id = "627bd013-6ce5-43a9-abd7-5ee910cf7e9c"
+	level = "core/editor_slave/resources/levels/animation_preview"
+	unit_ref = {
+		_id = "63327f38-5b0f-49f8-ba9f-bfad19b1692c"
+		ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.unit_anim"
+		ref_id = null
+	}
+}
+variable_root_folder_name = "Variables"
+variables = {
+	_id = "2e792ee8-9b66-4ba9-91a6-dd05a9430d16"
+	_name = "Variables"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}

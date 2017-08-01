@@ -1,0 +1,44 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.0771269554593
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.45059132575989
+			-1.24007189273834
+			2.28435182571411
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.274351507425308
+			0.150448366999626
+			-0.456683486700058
+			-0.832788527011871
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Frame = "content/models/City-Aura/M_Copper-01"
+	SolarPanel = "content/models/City-Aura/M_Panel-SolarBlueGliter_a"
+	Structure = "content/models/City-Aura/M_Paint-White-01"
+}
+renderables = {
+	"S_POW_GEN_SOL-ELEC_Panel-RectangularGround" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

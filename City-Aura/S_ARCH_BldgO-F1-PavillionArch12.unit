@@ -1,0 +1,44 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 15.4226176
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-10.5213747024536
+			7.31503963470459
+			9.37447071075439
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.114982523024082
+			-0.223143443465233
+			0.86046302318573
+			-0.443384110927582
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Ivy = "content/models/City-Aura/M_Ivy_01"
+	Structure = "content/models/City-Aura/M_Tile-Marble-WhiteBlack-01a"
+	Tile = "content/models/City-Aura/M_Tile-MultiColor-PatternA-01"
+}
+renderables = {
+	"S_ARCH_BldgO-F1-PavillionArch12" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

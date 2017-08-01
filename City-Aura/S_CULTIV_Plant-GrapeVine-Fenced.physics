@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_CULTIV_Plant-GrapeVine-Fenced"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_CULTIV_Plant-GrapeVine-Fenced"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

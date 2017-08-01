@@ -1,0 +1,27 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	normal_map = "content/models/City-Aura/T_Tile-Pattern_31-NoBorder_N"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [1 0.8588 0.5686]
+	}
+	metallic = {
+		type = "scalar"
+		value = 1
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.25
+	}
+	use_normal_map = {
+		type = "scalar"
+		value = 1
+	}
+	uv_scale = {
+		type = "vector2"
+		value = [40 40]
+	}
+}

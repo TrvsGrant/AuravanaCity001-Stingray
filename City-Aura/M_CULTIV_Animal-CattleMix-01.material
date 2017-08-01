@@ -1,0 +1,15 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/models/City-Aura/T_CULTIV_Animal-CattleMix-01_SkinE"
+}
+variables = {
+	roughness = {
+		type = "scalar"
+		value = 1
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+}

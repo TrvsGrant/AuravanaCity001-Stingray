@@ -1,0 +1,61 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 6.40044771449548
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			3.66120338439941
+			3.75525212287903
+			5.89345836639404
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.141845375299454
+			-0.355962187051773
+			0.858056128025055
+			0.341921806335449
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Slot1 = "content/models/City-Aura/M_Concrete-Bare-02"
+	Slot2 = "content/models/City-Aura/M_Illumination-Red"
+}
+renderables = {
+	S_PRES_GRID_InterCityNetwork = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"S_STRU_PRES_Platform-Circular" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	S_TriggerArea001 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+}

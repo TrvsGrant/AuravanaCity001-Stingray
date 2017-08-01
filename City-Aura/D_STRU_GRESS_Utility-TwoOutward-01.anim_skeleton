@@ -1,0 +1,54 @@
+
+_data_root_version = 1
+_id = "0130dd96-a937-4ebb-b7ec-dad9920e7644"
+_name = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "c9c490b1-dcab-4afa-8b07-0b69a3bbd4b7"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "9be17735-8f1d-4fbb-857e-aca810f68c42"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "c37d7161-12cd-4f9f-b9ba-31a773fca3f9"
+		_name = "Door_Frame"
+		lod_level = 5
+	}
+	{
+		_id = "73a3aba2-1af9-4a35-bc1d-8c107402db92"
+		_name = "Door_Left"
+		lod_level = 5
+	}
+	{
+		_id = "11653240-9526-4121-95fe-e53ba0f8b6ea"
+		_name = "Door_Right"
+		lod_level = 5
+	}
+	{
+		_id = "632118dd-9e9d-42b9-8689-93451106b0a4"
+		_name = "Trigger_Open"
+		lod_level = 5
+	}
+	{
+		_id = "ee159edc-ea77-4587-b140-27058239e371"
+		_name = "Trigger_Close"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "599dcb03-0327-4c09-a264-2d7bd4bbc238"
+	ref_filename = "content/models/City-Aura/D_STRU_GRESS_Utility-TwoOutward-01.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "83ca4461-a8d9-47e2-8472-8ea349bac3e4"
+	ref_filename = null
+	ref_id = null
+}

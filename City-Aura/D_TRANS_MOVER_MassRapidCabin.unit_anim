@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "b598ccb5-c046-451b-930c-eac2179499f3"
+_name = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin"
+anim_controller_ref = {
+	_id = "ed5c3e03-d8df-4c60-b088-1af5545b352d"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "6ff665a3-0211-4b0f-a37a-30c7cabf4bd0"
+	ref_filename = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "ec136c46-beb5-4ca6-a3b6-e99983628b3b"
+	ref_filename = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin"

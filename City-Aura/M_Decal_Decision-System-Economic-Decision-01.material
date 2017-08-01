@@ -1,0 +1,7 @@
+
+parent_material = "core/stingray_renderer/helper_units/decals/decal"
+textures = {
+	color_map = "content/models/City-Aura/T_Decal_Decision-System-Economic-Decision-01"
+}
+variables = {
+}

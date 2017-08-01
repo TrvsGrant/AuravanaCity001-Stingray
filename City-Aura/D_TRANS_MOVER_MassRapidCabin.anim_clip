@@ -1,0 +1,56 @@
+
+_data_root_version = 3
+_id = "f9f57a1c-2021-4041-b013-74e98126cd56"
+_name = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "9a519a0d-2bc7-4e14-a16d-f1c961a05509"
+	ref_filename = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "d35c6f5d-45d5-4a0a-8b30-ea491f54d810"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "3486341a-208c-44e3-805a-641bbf6538e8"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "eb8f180d-34db-412e-94d3-202300f31bdf"
+	ref_filename = "content/models/City-Aura/D_TRANS_MOVER_MassRapidCabin.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "e56e2172-4288-4222-9b21-93197af09ea0"
+	do_ignore_positions = false
+	do_ignore_rotations = false
+	do_ignore_scales = false
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "c7934ce3-7034-4854-8329-3b44df26b969"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "CabinAnimation"
+trimming_end = 200
+trimming_start = 0

@@ -1,0 +1,17 @@
+
+common = {
+	input = {
+		filename = "content/models/City-Aura/TERRAIN_4096_mat0"
+		format = "R8G8B8A8"
+		height = 4096
+		type = "IMAGE2D"
+		width = 4096
+	}
+	output = {
+		apply_processing = false
+		format = "BC3"
+		mipmap_filter = "box"
+		mipmap_filter_wrap_mode = "clamp"
+		srgb = false
+	}
+}

@@ -1,0 +1,44 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 12.6937015824924
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			5.43340730667114
+			10.052116394043
+			3.95528936386108
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.00801991112530231
+			-0.0353331118822098
+			0.974554061889648
+			0.221204996109009
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	Structure = "content/models/City-Aura/M_Brick-ConcreteTile-01_a"
+	Trim = "content/models/City-Aura/M_Metal-Aluminum"
+}
+renderables = {
+	"S_ARCH_BldgE-F1-DoubLatCylin-Three" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

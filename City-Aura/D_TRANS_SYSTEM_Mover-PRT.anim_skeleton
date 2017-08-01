@@ -1,0 +1,39 @@
+
+_data_root_version = 1
+_id = "ca6551ee-747e-4e8c-896e-5ab5d05de5b8"
+_name = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "024e7633-bb8a-4498-a441-245be0c18cbc"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "21491039-5373-4eae-8b50-e427caa9087c"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "86459e41-6f5a-4472-b18c-b0840ba9c2bf"
+		_name = "D_TRANS_SYSTEM_Mover-PRT"
+		lod_level = 5
+	}
+	{
+		_id = "c0935f87-032d-41c1-b28e-b4f590f90891"
+		_name = "Doors"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "72fc74c0-897b-4555-9473-761adc75b96d"
+	ref_filename = "content/models/City-Aura/D_TRANS_SYSTEM_Mover-PRT.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "5da47d98-7175-4457-8bed-96ea62d464e7"
+	ref_filename = null
+	ref_id = null
+}

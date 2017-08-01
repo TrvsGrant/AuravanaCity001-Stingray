@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_GRID_Layout-R8C9-A45"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_GRID_Layout-R8C9-A45"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

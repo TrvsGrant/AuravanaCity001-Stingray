@@ -1,0 +1,52 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 10.3137154000535
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-3.00713658332825
+			9.02605247497559
+			5.41174793243408
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.0315324515104294
+			-0.194403246045113
+			0.967766761779785
+			-0.156973093748093
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-TransparentDark"
+	"PRT Material" = "content/models/City-Aura/M_TRANS_SYSTEM_Mover-PRT"
+}
+renderables = {
+	"D_TRANS_SYSTEM_Mover-PRT" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Doors = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

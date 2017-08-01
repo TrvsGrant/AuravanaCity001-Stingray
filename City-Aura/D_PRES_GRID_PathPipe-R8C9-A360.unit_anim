@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "95fed30c-2d63-4786-bc8e-f591579cb261"
+_name = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"
+anim_controller_ref = {
+	_id = "9ead8bfe-b7ba-4669-b3ea-a376d5c5a8ac"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "154a3e2b-3733-4bfe-afc2-c8d844ed0b66"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "7888f6d9-814f-456c-89d9-48ad5024c109"
+	ref_filename = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_PRES_GRID_PathPipe-R8C9-A360"

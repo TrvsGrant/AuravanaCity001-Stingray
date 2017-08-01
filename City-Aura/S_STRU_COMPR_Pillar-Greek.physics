@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_STRU_COMPR_Pillar-Greek"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_STRU_COMPR_Pillar-Greek"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "6628afe1-235d-4c93-9781-a4a7622aabc1"
+_name = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"
+anim_controller_ref = {
+	_id = "078ef788-0f42-407b-abfe-695abecf783b"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "4a77ae42-2c12-4e29-b78a-f6b579846f5f"
+	ref_filename = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "399028e1-23bd-48e4-85ea-016e3f5ade56"
+	ref_filename = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/models/City-Aura/D_PRES_TRANS_PipeDistribution-ContainerMover"

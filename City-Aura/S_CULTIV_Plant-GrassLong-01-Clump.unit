@@ -1,0 +1,29 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.51255161395971
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [1.45062232017517 1.45062291622162 1.55822241306305]
+		projection_type = "perspective"
+		rotation = [-0.115916900336742 -0.279848128557205 0.880476236343384 0.364705175161362]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"M_CULTIV_Plant-GrassLong-01" = "content/models/City-Aura/M_CULTIV_Plant-GrassLong-01"
+}
+renderables = {
+	"S_CULTIV_Plant-GrassLong-01-Clump" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

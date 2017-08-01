@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F1-Rec-SemiCylin"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F1-Rec-SemiCylin"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

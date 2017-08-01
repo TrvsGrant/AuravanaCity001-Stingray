@@ -1,0 +1,9 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard_rma_opacity"
+textures = {
+	color_map = "content/models/City-Aura/T_MINER_Rock-CrystalFantasy-01_D"
+	normal_map = "content/models/City-Aura/T_MINER_Rock-CrystalFantasy-01_N"
+	rma_map = ""
+}
+variables = {
+}

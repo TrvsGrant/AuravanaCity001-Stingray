@@ -1,0 +1,30 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 23.4308739160143
+		orthographic_plane = [0 0 1 0]
+		orthographic_zoom = 10
+		position = [15.6454925537109 17.2244682312012 4.87724113464355]
+		projection_type = "perspective"
+		rotation = [-0.0211578160524368 -0.054760780185461 0.931188225746155 0.359780639410019]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	Glass = "content/models/City-Aura/M_Glass-Transparent"
+	Structure = "content/models/City-Aura/M_Paint-Plaster-White-02"
+}
+renderables = {
+	"S_ARCH_BldgE-F2-DoubCylinRing-Cylin" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

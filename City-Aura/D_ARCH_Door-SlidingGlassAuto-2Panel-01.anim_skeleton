@@ -1,0 +1,49 @@
+
+_data_root_version = 1
+_id = "e4d52142-2004-46d6-a8ad-f15e60fd7395"
+_name = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "0aad17d0-51ff-412c-8d9c-1c39f6d720d2"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "1a31edfe-3539-4155-8f88-e19eac1969e7"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "9f846fd3-1430-4600-aace-cd5f6899bf35"
+		_name = "Right"
+		lod_level = 5
+	}
+	{
+		_id = "fff8b482-66c0-44ed-bb80-2f5ed9d56118"
+		_name = "Frame"
+		lod_level = 5
+	}
+	{
+		_id = "d2ddc55b-56c4-47d5-99b1-179ae839e283"
+		_name = "Left"
+		lod_level = 5
+	}
+	{
+		_id = "37a9a764-2d06-40ff-b3c0-46bc82706c0d"
+		_name = "Collision"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "ea943f9f-6de1-4e30-980c-f87172998fe4"
+	ref_filename = "content/models/City-Aura/D_ARCH_Door-SlidingGlassAuto-2Panel-01.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "eb14f3d1-1154-41ee-99a3-e9b6bedff956"
+	ref_filename = null
+	ref_id = null
+}

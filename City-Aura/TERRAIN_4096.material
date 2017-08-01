@@ -1,0 +1,1254 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "af036429-a244-432d-9fdd-99b22cae4fb3"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "e6972499-d1a3-48de-bef7-8d9ddefc9fe5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "af036429-a244-432d-9fdd-99b22cae4fb3"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "b68d4947-79f1-45a8-bda9-97d96d5b9f11"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "17b97e0d-d2dd-4dcb-a69e-a1d6b4fd1f27"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "af036429-a244-432d-9fdd-99b22cae4fb3"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "17b97e0d-d2dd-4dcb-a69e-a1d6b4fd1f27"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "67ac341a-6c9c-4dff-acf9-2a20bf94af1f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "b1f9c28c-c3d7-469c-bccd-699703ac247c"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "17b97e0d-d2dd-4dcb-a69e-a1d6b4fd1f27"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "b1f9c28c-c3d7-469c-bccd-699703ac247c"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "fd6b2778-d4bf-4f81-9b64-5e7e26f3387c"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "b68d4947-79f1-45a8-bda9-97d96d5b9f11"
+			}
+			source = {
+				instance_id = "adf165e7-7b4d-4c21-ad40-4f3ebfc8c61f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "8121daec-950a-461c-93e7-395780ec48f0"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "b1f9c28c-c3d7-469c-bccd-699703ac247c"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "8121daec-950a-461c-93e7-395780ec48f0"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "43fcd9c3-3bb3-498c-9317-8ba6e66e7236"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "638e6d1c-547f-4ecc-b3cc-61895e84a04f"
+			}
+			source = {
+				instance_id = "8121daec-950a-461c-93e7-395780ec48f0"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "af036429-a244-432d-9fdd-99b22cae4fb3"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "17b97e0d-d2dd-4dcb-a69e-a1d6b4fd1f27"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "b1f9c28c-c3d7-469c-bccd-699703ac247c"
+			}
+			select = [
+				"b"
+			]
+			source = {
+				instance_id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "8121daec-950a-461c-93e7-395780ec48f0"
+			}
+			select = [
+				"a"
+			]
+			source = {
+				instance_id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "adf165e7-7b4d-4c21-ad40-4f3ebfc8c61f"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "adf165e7-7b4d-4c21-ad40-4f3ebfc8c61f"
+			}
+			source = {
+				instance_id = "e8e09394-4097-4999-bcd4-ff9f3bc14098"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "e6972499-d1a3-48de-bef7-8d9ddefc9fe5"
+			}
+			source = {
+				instance_id = "bb8548a6-2d54-4452-a036-b4c0c04ed23d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "bb8548a6-2d54-4452-a036-b4c0c04ed23d"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "bb8548a6-2d54-4452-a036-b4c0c04ed23d"
+			}
+			source = {
+				instance_id = "5a944a72-daf9-4711-9096-3dd2100fc079"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "43fcd9c3-3bb3-498c-9317-8ba6e66e7236"
+			}
+			source = {
+				instance_id = "34ef410e-88ce-4c68-b793-9fc199bbee01"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "fd6b2778-d4bf-4f81-9b64-5e7e26f3387c"
+			}
+			source = {
+				instance_id = "07946113-5f58-4149-9236-393ee24e866f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "67ac341a-6c9c-4dff-acf9-2a20bf94af1f"
+			}
+			source = {
+				instance_id = "ff74aba7-f1db-46a2-97f0-9892bc7bca43"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "ff74aba7-f1db-46a2-97f0-9892bc7bca43"
+			}
+			source = {
+				instance_id = "e243c1a2-d255-4abe-8068-d028af6c0af1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "ff74aba7-f1db-46a2-97f0-9892bc7bca43"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "07946113-5f58-4149-9236-393ee24e866f"
+			}
+			source = {
+				instance_id = "ba49c5cf-dfe3-44a8-9739-0311c6bee1fc"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "07946113-5f58-4149-9236-393ee24e866f"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "34ef410e-88ce-4c68-b793-9fc199bbee01"
+			}
+			source = {
+				instance_id = "8901cd61-9349-4e0c-bcda-6fe9924a37dd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "34ef410e-88ce-4c68-b793-9fc199bbee01"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "164c87a7-08d1-4b49-859b-255183009ef4"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "d8b29c3d-a555-45e8-88b1-1649708abd30"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "164c87a7-08d1-4b49-859b-255183009ef4"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "d2303cfd-f054-43fb-a9ae-74be5362902d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "7d0fceca-12d3-4e0c-b575-8757e34037f8"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "164c87a7-08d1-4b49-859b-255183009ef4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "7d0fceca-12d3-4e0c-b575-8757e34037f8"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "de5a820b-8dab-4d90-a527-4f290eb0ff83"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "43d4fd6f-a820-4429-95d2-7e57212d9e04"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "7d0fceca-12d3-4e0c-b575-8757e34037f8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "43d4fd6f-a820-4429-95d2-7e57212d9e04"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "643bdb8c-4f2c-480f-85f8-1a9cc380302e"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "d2303cfd-f054-43fb-a9ae-74be5362902d"
+			}
+			source = {
+				instance_id = "a51534ff-7b5f-4571-a24b-8f1110e402d5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "da2a6d8b-ba96-411a-89a4-3fa4fdfc4a47"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "43d4fd6f-a820-4429-95d2-7e57212d9e04"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "da2a6d8b-ba96-411a-89a4-3fa4fdfc4a47"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "9c61c560-a685-4c4d-ad82-4c6d941607fd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "164c87a7-08d1-4b49-859b-255183009ef4"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "7d0fceca-12d3-4e0c-b575-8757e34037f8"
+			}
+			select = [
+				"g"
+			]
+			source = {
+				instance_id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "43d4fd6f-a820-4429-95d2-7e57212d9e04"
+			}
+			select = [
+				"b"
+			]
+			source = {
+				instance_id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "da2a6d8b-ba96-411a-89a4-3fa4fdfc4a47"
+			}
+			select = [
+				"a"
+			]
+			source = {
+				instance_id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "d8b29c3d-a555-45e8-88b1-1649708abd30"
+			}
+			source = {
+				instance_id = "c6d7c8d7-a85f-4cc2-87cb-3f22fdc718f6"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "9c61c560-a685-4c4d-ad82-4c6d941607fd"
+			}
+			source = {
+				instance_id = "41c601a0-ef3f-4340-9a68-5c71cdd86a0f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "643bdb8c-4f2c-480f-85f8-1a9cc380302e"
+			}
+			source = {
+				instance_id = "c58f625f-2628-4f5a-aa7f-292fffcb3ed8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "de5a820b-8dab-4d90-a527-4f290eb0ff83"
+			}
+			source = {
+				instance_id = "c6425522-da0a-4e33-a021-6026ebdd22d1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "a51534ff-7b5f-4571-a24b-8f1110e402d5"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "c6d7c8d7-a85f-4cc2-87cb-3f22fdc718f6"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "c6425522-da0a-4e33-a021-6026ebdd22d1"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "c58f625f-2628-4f5a-aa7f-292fffcb3ed8"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "41c601a0-ef3f-4340-9a68-5c71cdd86a0f"
+			}
+			source = {
+				instance_id = "b20cae23-38d6-4932-a166-dba132401a73"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "a51534ff-7b5f-4571-a24b-8f1110e402d5"
+			}
+			source = {
+				instance_id = "e8e09394-4097-4999-bcd4-ff9f3bc14098"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "c6d7c8d7-a85f-4cc2-87cb-3f22fdc718f6"
+			}
+			source = {
+				instance_id = "5a944a72-daf9-4711-9096-3dd2100fc079"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "c6425522-da0a-4e33-a021-6026ebdd22d1"
+			}
+			source = {
+				instance_id = "e243c1a2-d255-4abe-8068-d028af6c0af1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "c58f625f-2628-4f5a-aa7f-292fffcb3ed8"
+			}
+			source = {
+				instance_id = "ba49c5cf-dfe3-44a8-9739-0311c6bee1fc"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "41c601a0-ef3f-4340-9a68-5c71cdd86a0f"
+			}
+			source = {
+				instance_id = "8901cd61-9349-4e0c-bcda-6fe9924a37dd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "638e6d1c-547f-4ecc-b3cc-61895e84a04f"
+			}
+			source = {
+				instance_id = "da2a6d8b-ba96-411a-89a4-3fa4fdfc4a47"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+			id = "a0fd6e5e-8209-48e6-9385-e9530322b734"
+			instance_id = "638e6d1c-547f-4ecc-b3cc-61895e84a04f"
+			value = [0.8]
+		}
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "05f4df4c-822b-40cd-9c38-dc0d079f89c2"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-1180 300]
+			samplers = {
+			}
+			type = "core/shader_nodes/terrain_blend_mask"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "adf165e7-7b4d-4c21-ad40-4f3ebfc8c61f"
+			options = [
+			]
+			position = [-1380 -260]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "af036429-a244-432d-9fdd-99b22cae4fb3"
+			options = [
+			]
+			position = [-780 -220]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "17b97e0d-d2dd-4dcb-a69e-a1d6b4fd1f27"
+			options = [
+			]
+			position = [-580 -120]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "b68d4947-79f1-45a8-bda9-97d96d5b9f11"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-1180 -260]
+			samplers = {
+				texture_map = {
+					display_name = "Base Color"
+					slot_name = "texture_map_6d5b9f11"
+					ui = {
+					}
+				}
+			}
+			title = "Base Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "e6972499-d1a3-48de-bef7-8d9ddefc9fe5"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-1180 -160]
+			samplers = {
+				texture_map = {
+					display_name = "Red Base Color"
+					slot_name = "texture_map_defc9fe5"
+					ui = {
+					}
+				}
+			}
+			title = "Red Base Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "67ac341a-6c9c-4dff-acf9-2a20bf94af1f"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-1180 -60]
+			samplers = {
+				texture_map = {
+					display_name = "Green Base Color"
+					slot_name = "texture_map_bf94af1f"
+					ui = {
+					}
+				}
+			}
+			title = "Green Base Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "fd6b2778-d4bf-4f81-9b64-5e7e26f3387c"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-1180 40]
+			samplers = {
+				texture_map = {
+					display_name = "Blue Base Color"
+					slot_name = "texture_map_26f3387c"
+					ui = {
+					}
+				}
+			}
+			title = "Blue Base Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "43fcd9c3-3bb3-498c-9317-8ba6e66e7236"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [-1180 140]
+			samplers = {
+				texture_map = {
+					display_name = "Alpha Base Color"
+					slot_name = "texture_map_e66e7236"
+					ui = {
+					}
+				}
+			}
+			title = "Alpha Base Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "b20cae23-38d6-4932-a166-dba132401a73"
+			options = [
+			]
+			position = [-2140 300]
+			samplers = {
+			}
+			type = "core/shader_nodes/terrain_uv"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "bb8548a6-2d54-4452-a036-b4c0c04ed23d"
+			options = [
+			]
+			position = [-1380 -160]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Red Base UV Tile"
+					name = "material_variable_100fc079"
+					type = "float2"
+					ui = {
+						max = [1000 1000]
+						min = [0 0]
+						step = [1 1]
+					}
+					value = [100 100]
+				}
+			}
+			id = "5a944a72-daf9-4711-9096-3dd2100fc079"
+			options = [
+			]
+			position = [-2140 -100]
+			samplers = {
+			}
+			title = "Red Base UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Base UV Tile"
+					name = "material_variable"
+					type = "float2"
+					ui = {
+						max = [1000 1000]
+						min = [0 0]
+						step = [1 1]
+					}
+					value = [100 100]
+				}
+			}
+			id = "e8e09394-4097-4999-bcd4-ff9f3bc14098"
+			options = [
+			]
+			position = [-2140 -200]
+			samplers = {
+			}
+			title = "Base UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Green Base UV Tile"
+					name = "material_variable_af6c0af1"
+					type = "float2"
+					ui = {
+						max = [1000 1000]
+						min = [0 0]
+						step = [1 1]
+					}
+					value = [100 100]
+				}
+			}
+			id = "e243c1a2-d255-4abe-8068-d028af6c0af1"
+			options = [
+			]
+			position = [-2140 0]
+			samplers = {
+			}
+			title = "Green Base UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Blue Base UV Tile"
+					name = "material_variable_c6bee1fc"
+					type = "float2"
+					ui = {
+						max = [1000 1000]
+						min = [0 0]
+						step = [1 1]
+					}
+					value = [100 100]
+				}
+			}
+			id = "ba49c5cf-dfe3-44a8-9739-0311c6bee1fc"
+			options = [
+			]
+			position = [-2140 100]
+			samplers = {
+			}
+			title = "Blue Base UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+				material_variable = {
+					display_name = "Alpha Base UV Tile"
+					name = "material_variable_924a37dd"
+					type = "float2"
+					ui = {
+						max = [1000 1000]
+						min = [0 0]
+						step = [1 1]
+					}
+					value = [100 100]
+				}
+			}
+			id = "8901cd61-9349-4e0c-bcda-6fe9924a37dd"
+			options = [
+			]
+			position = [-2140 200]
+			samplers = {
+			}
+			title = "Alpha Base UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "ff74aba7-f1db-46a2-97f0-9892bc7bca43"
+			options = [
+			]
+			position = [-1380 -60]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "07946113-5f58-4149-9236-393ee24e866f"
+			options = [
+			]
+			position = [-1380 40]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "34ef410e-88ce-4c68-b793-9fc199bbee01"
+			options = [
+			]
+			position = [-1380 140]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "b1f9c28c-c3d7-469c-bccd-699703ac247c"
+			options = [
+			]
+			position = [-380 -20]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "8121daec-950a-461c-93e7-395780ec48f0"
+			options = [
+			]
+			position = [-180 80]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "638e6d1c-547f-4ecc-b3cc-61895e84a04f"
+			options = [
+			]
+			position = [220 160]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/terrain_base"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "fec1342c-cf37-47a8-ac02-3e0cd9a8afdb"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"f669a3a6-0376-4187-840e-80000e2939d5"
+			]
+			position = [-1240 1140]
+			samplers = {
+			}
+			type = "core/shader_nodes/terrain_blend_mask"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "a51534ff-7b5f-4571-a24b-8f1110e402d5"
+			options = [
+			]
+			position = [-1440 580]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "164c87a7-08d1-4b49-859b-255183009ef4"
+			options = [
+			]
+			position = [-840 620]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "7d0fceca-12d3-4e0c-b575-8757e34037f8"
+			options = [
+			]
+			position = [-640 720]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "d2303cfd-f054-43fb-a9ae-74be5362902d"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [-1240 580]
+			samplers = {
+				texture_map = {
+					display_name = "Normal Color"
+					slot_name = "texture_map_5362902d"
+					ui = {
+					}
+				}
+			}
+			title = "Normal Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "d8b29c3d-a555-45e8-88b1-1649708abd30"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [-1240 680]
+			samplers = {
+				texture_map = {
+					display_name = "Red Normal Color"
+					slot_name = "texture_map_708abd30"
+					ui = {
+					}
+				}
+			}
+			title = "Red Normal Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "de5a820b-8dab-4d90-a527-4f290eb0ff83"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [-1240 780]
+			samplers = {
+				texture_map = {
+					display_name = "Green Normal Color"
+					slot_name = "texture_map_0eb0ff83"
+					ui = {
+					}
+				}
+			}
+			title = "Green Normal Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "643bdb8c-4f2c-480f-85f8-1a9cc380302e"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [-1240 880]
+			samplers = {
+				texture_map = {
+					display_name = "Blue Normal Color"
+					slot_name = "texture_map_c380302e"
+					ui = {
+					}
+				}
+			}
+			title = "Blue Normal Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "9c61c560-a685-4c4d-ad82-4c6d941607fd"
+			options = [
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+				"90e20826-8689-42fa-8e24-f484ec64c5c3"
+			]
+			position = [-1240 980]
+			samplers = {
+				texture_map = {
+					display_name = "Alpha Normal Color"
+					slot_name = "texture_map_941607fd"
+					ui = {
+					}
+				}
+			}
+			title = "Alpha Normal Color"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "c6d7c8d7-a85f-4cc2-87cb-3f22fdc718f6"
+			options = [
+			]
+			position = [-1440 680]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "c6425522-da0a-4e33-a021-6026ebdd22d1"
+			options = [
+			]
+			position = [-1440 780]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "c58f625f-2628-4f5a-aa7f-292fffcb3ed8"
+			options = [
+			]
+			position = [-1440 880]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "41c601a0-ef3f-4340-9a68-5c71cdd86a0f"
+			options = [
+			]
+			position = [-1440 980]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "43d4fd6f-a820-4429-95d2-7e57212d9e04"
+			options = [
+			]
+			position = [-440 820]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [160 0]
+			export = {
+			}
+			id = "da2a6d8b-ba96-411a-89a4-3fa4fdfc4a47"
+			options = [
+			]
+			position = [-240 920]
+			samplers = {
+			}
+			type = "core/shader_nodes/lerp"
+		}
+	]
+	version = 3
+}
+textures = {
+	texture_map_0eb0ff83 = "content/models/City-Aura/T_Terrain-GrassLeaves_02_N"
+	texture_map_26f3387c = "content/models/City-Aura/T_Terrain-SandRipples_01_D"
+	texture_map_5362902d = "content/models/City-Aura/T_Terrain-GrassGreenFlat_2048x_N"
+	texture_map_6d5b9f11 = "content/models/City-Aura/T_Terrain-GrassGreenFlat_2048x_D"
+	texture_map_708abd30 = "content/models/City-Aura/T_Terrain-GrassClover_N"
+	texture_map_941607fd = "content/models/City-Aura/T_Terrain-Grass_04_N"
+	texture_map_bf94af1f = "content/models/City-Aura/T_Terrain-GrassLeaves_02_D"
+	texture_map_c380302e = "content/models/City-Aura/T_Terrain-SandRipples_01_N"
+	texture_map_defc9fe5 = "content/models/City-Aura/T_Terrain-GrassClover_D"
+	texture_map_e66e7236 = "content/models/City-Aura/T_Terrain-Grass_04_D"
+}
+variables = {
+	material_variable = {
+		type = "vector2"
+		value = [400 400]
+	}
+	material_variable_100fc079 = {
+		type = "vector2"
+		value = [1000 1000]
+	}
+	material_variable_924a37dd = {
+		type = "vector2"
+		value = [900 900]
+	}
+	material_variable_af6c0af1 = {
+		type = "vector2"
+		value = [1000 1000]
+	}
+	material_variable_c6bee1fc = {
+		type = "vector2"
+		value = [1000 1000]
+	}
+}

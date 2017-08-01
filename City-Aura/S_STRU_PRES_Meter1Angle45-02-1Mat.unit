@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.7117494445598
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			0.0609155595302582
+			1.92465698719025
+			2.64806365966797
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.00634136097505689
+			-0.391429007053375
+			0.920065760612488
+			0.0149054508656263
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	"Material #23" = "content/models/City-Aura/M_PRES_City-Configurations"
+}
+renderables = {
+	"S_STRU_PRES_Meter1Angle45-02_ONEMATERIAL" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

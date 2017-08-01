@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "S_ARCH_BldgE-F2-CylinderSquash"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "S_ARCH_BldgE-F2-CylinderSquash"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]
